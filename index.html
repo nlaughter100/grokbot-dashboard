@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grok Bots / Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--peach:#f4c39a;--teal:#2fd3b5;--glass:rgba(255,255,255,.05);--line:rgba(255,255,255,.09);--mut:#9fb3ad}
+*{box-sizing:border-box;margin:0}
+body{font-family:'Work Sans',system-ui,sans-serif;color:#eef5f2;min-height:100vh;overflow-x:hidden;
+background:radial-gradient(ellipse at 50% -10%,#1f4a44 0%,#10282a 40%,#071312 80%) fixed}
+#fx{position:fixed;inset:0;pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;padding:18px 40px 60px}
+.top{display:flex;justify-content:space-between;align-items:center}
+.crumb{font-size:13px;font-weight:600;letter-spacing:.04em}.crumb span{color:var(--mut);margin:0 6px}
+.right{display:flex;align-items:center;gap:14px}
+#clock{font-size:30px;font-weight:700}#date{font-size:12px;color:#cfe}
+.ib{width:30px;height:30px;border-radius:9px;border:1px solid var(--line);background:var(--glass);display:grid;place-items:center;color:#cfe;font-size:13px;cursor:pointer}
+.strip{margin-top:14px;display:flex;align-items:center;gap:6px;padding:8px;border-radius:14px;background:rgba(40,80,74,.35);border:1px solid var(--line);backdrop-filter:blur(10px)}
+.day{flex:1;text-align:center;font-size:12px;padding:8px 0;border-radius:9px;color:#cfe;position:relative}
+.day b{font-size:13px;margin-left:3px}.day i{position:absolute;bottom:2px;left:50%;width:4px;height:4px;border-radius:50%;transform:translateX(-50%)}
+.day.today{background:var(--peach);color:#3a2515}
+.cnt{display:flex;gap:8px;align-items:center;font-size:11px;padding:0 10px;border-left:1px solid var(--line)}.cnt b{display:block;font-size:12px}
+.stage{position:relative;height:440px;margin-top:40px;perspective:1600px}
+.card{position:absolute;top:0;left:50%;width:min(72vw,980px);height:420px;border-radius:22px;overflow:hidden;
+background-size:cover;background-position:center;border:1px solid var(--line);transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .7s,filter .7s;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.card::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,19,18,.92) 0%,rgba(7,19,18,.55) 45%,rgba(7,19,18,0) 75%)}
+.card.on{box-shadow:0 0 0 1px rgba(47,211,181,.35),0 30px 90px rgba(47,211,181,.18)}
+.ci{position:absolute;inset:0;padding:26px 34px;display:flex;flex-direction:column}
+.eyebrow{font-size:10px;letter-spacing:.14em;color:#cfe;text-transform:uppercase}
+.sub{margin-top:auto;font-size:12px;font-weight:600}.sub span{color:var(--mut);margin:0 6px}
+h1{font-size:clamp(28px,4vw,50px);line-height:1.08;font-weight:600;max-width:560px;margin:6px 0 34px}
+.bl{display:flex;gap:8px}.cta{position:absolute;right:28px;bottom:26px;background:var(--peach);color:#3a2515;border:0;border-radius:10px;padding:11px 18px;font:600 13px inherit;cursor:pointer;font-family:inherit}
+.badge{position:absolute;right:28px;top:24px;font-size:11px;font-weight:600;padding:5px 11px;border-radius:20px;backdrop-filter:blur(8px)}
+.ok{background:rgba(47,211,181,.2);color:#7ff0da}.attention{background:rgba(244,195,154,.22);color:var(--peach)}.blocked{background:rgba(255,120,110,.2);color:#ff9d93}
+.arrow{position:absolute;top:190px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(10,30,28,.6);color:#fff;font-size:18px;cursor:pointer;z-index:50;backdrop-filter:blur(8px)}
+#prev{left:2vw}#next{right:2vw}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:4px}.dots i{width:6px;height:6px;border-radius:3px;background:#3c5;opacity:.25;transition:.4s}.dots i.on{width:22px;opacity:1;background:var(--peach)}
+.panels{display:grid;grid-template-columns:1.1fr 1.4fr 1fr;gap:16px;margin:30px auto 0;max-width:1180px}
+.p{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:20px;backdrop-filter:blur(12px);animation:up .6s both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+.p h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:14px}
+ul{list-style:none;padding:0}li{font-size:13.5px;line-height:1.4;padding:7px 0 7px 22px;position:relative;border-bottom:1px solid rgba(255,255,255,.04)}
+li::before{content:"";position:absolute;left:2px;top:12px;width:9px;height:9px;border-radius:50%}
+.d li::before{background:var(--teal);box-shadow:0 0 8px var(--teal)}.n li::before{background:var(--peach)}.x li::before{background:#ff8a80}.r li::before{background:#6a8;border-radius:2px}
+.metrics{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.m{flex:1;min-width:110px;padding:12px;border-radius:12px;background:rgba(0,0,0,.2)}.m b{font-size:26px;color:var(--peach);display:block}.m small{color:var(--mut);font-size:11px}
+.nd{color:var(--mut);font-style:italic;font-size:13px}
+.foot{text-align:center;color:var(--mut);font-size:11px;margin-top:30px}
+@media(max-width:900px){.wrap{padding:14px}.panels{grid-template-columns:1fr}.card{width:86vw;height:360px}.stage{height:380px}.cnt,.day:not(.today) b+i{}.strip{overflow-x:auto}.cnt{display:none}#clock{font-size:22px}.arrow{top:160px}}
+</style></head><body><canvas id="fx"></canvas>
+<div class="wrap">
+<div class="top"><div class="crumb">GROK BOTS<span>/</span>Home</div>
+<div class="right"><div id="clock"></div><div id="date"></div><div class="ib" title="Refresh" onclick="location.reload()">⟳</div><div class="ib">☼</div></div></div>
+<div class="strip" id="strip"></div>
+<div class="stage" id="stage"><button class="arrow" id="prev">‹</button><button class="arrow" id="next">›</button></div>
+<div class="dots" id="dots"></div>
+<div class="panels" id="panels"></div>
+<div class="foot" id="foot"></div></div>
+<script>
+const $=s=>document.querySelector(s);let D,cur=0,charts=[];
+function tick(){const n=new Date(),o={timeZone:'America/Denver'};$('#clock').textContent=n.toLocaleTimeString('en-US',{...o,hour:'numeric',minute:'2-digit',hour12:false});$('#date').innerHTML=n.toLocaleDateString('en-US',{...o,weekday:'long',month:'long',day:'numeric'})+'<br><span style="color:#9fb3ad">Mountain Time</span>'}
+setInterval(tick,1000);tick();
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;build()});
+function build(){
+ const today=new Date().toLocaleDateString('en-US',{timeZone:'America/Denver',weekday:'short'});
+ const needs=D.bots.reduce((a,b)=>a+b.needs.length,0),autos=D.bots.reduce((a,b)=>a+b.routines.filter(r=>!/^No /.test(r)).length,0);
+ $('#strip').innerHTML=D.weekDays.map((w,i)=>{const[a,n]=w.split(' ');const v=D.bots.map(b=>b.week[i]).filter(x=>x!=null);const c=!v.length?'transparent':v.includes(0)?'#ff8a80':v.includes(.5)?'#f4c39a':'#2fd3b5';return`<div class="day ${a==today?'today':''}">${a} <b>${n}</b><i style="background:${c}"></i></div>`}).join('')+
+ `<div class="cnt">✉<div><b>Needs you</b>${needs} items</div></div><div class="cnt">▷<div><b>Automations</b>${autos} scheduled</div></div>`;
+ const st=$('#stage');D.bots.forEach((b,i)=>{const c=document.createElement('div');c.className='card';c.style.backgroundImage=`url(${b.img})`;
+  c.innerHTML=`<div class="ci"><div class="eyebrow">Grok Bots / ${b.name}</div><span class="badge ${b.status}">${{ok:'On track',attention:'Needs attention',blocked:'Waiting on Nick'}[b.status]}</span>
+  <div class="sub">${b.role}<span>·</span>${b.done.length} done · ${b.pending.length} pending</div><h1>${b.name}<br><span style="color:#cfe;font-size:.55em">${b.headline}</span></h1>
+  <div class="bl"><div class="ib">✓</div><div class="ib">!</div><div class="ib">↻</div></div></div><button class="cta">Open ${b.name.split(' ')[0]} →</button>`;
+  c.onclick=()=>{if(i!=cur){cur=i;show()}else $('#panels').scrollIntoView({behavior:'smooth'})};st.appendChild(c)});
+ $('#dots').innerHTML=D.bots.map(()=>'<i></i>').join('');
+ $('#prev').onclick=()=>go(-1);$('#next').onclick=()=>go(1);
+ addEventListener('keydown',e=>{if(e.key=='ArrowRight')go(1);if(e.key=='ArrowLeft')go(-1)});
+ let x0=null;st.addEventListener('touchstart',e=>x0=e.touches[0].clientX);st.addEventListener('touchend',e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(dx<0?1:-1);x0=null});
+ let wl=0;st.addEventListener('wheel',e=>{if(Math.abs(e.deltaX)>Math.abs(e.deltaY)&&Date.now()-wl>500){wl=Date.now();go(e.deltaX>0?1:-1);e.preventDefault()}},{passive:false});
+ $('#foot').textContent=`Data: ${D.source} · updated ${new Date(D.updated).toLocaleString('en-US',{timeZone:'America/Denver'})} MT · "no data" = not reported, never estimated`;
+ show()}
+function go(d){cur=(cur+d+D.bots.length)%D.bots.length;show()}
+function show(){
+ document.querySelectorAll('.card').forEach((c,i)=>{let k=i-cur,N=D.bots.length;if(k>N/2)k-=N;if(k<-N/2)k+=N;const a=Math.abs(k);
+  c.classList.toggle('on',k==0);c.style.transform=`translateX(calc(-50% + ${k*66}vw)) scale(${k?0.86:1})`;c.style.opacity=a>1?0:k?.5:1;c.style.filter=k?'blur(3px) brightness(.6)':'none';c.style.zIndex=10-a});
+ document.querySelectorAll('.dots i').forEach((d,i)=>d.classList.toggle('on',i==cur));
+ const b=D.bots[cur],L=(a,c,e)=>a.length?`<ul class="${c}">${a.map(x=>`<li>${x}</li>`).join('')}</ul>`:`<p class="nd">${e}</p>`;
+ $('#panels').innerHTML=`<div class="p"><h3>Today's snapshot</h3><div style="height:220px"><canvas id="c1"></canvas></div><div class="metrics">${b.metrics.map(m=>`<div class="m"><b data-v="${m.value}">0</b><small>${m.label}</small></div>`).join('')}</div></div>
+ <div class="p"><h3>This week · routine runs</h3><canvas id="c2" height="150"></canvas><h3 style="margin-top:18px">Done</h3>${L(b.done,'d','Nothing recorded')}<h3 style="margin-top:14px">Not done / pending</h3>${L(b.pending,'x','Nothing outstanding')}</div>
+ <div class="p"><h3>Needs Nick</h3>${L(b.needs,'n','Nothing waiting on you')}<h3 style="margin-top:18px">Routines</h3>${L(b.routines,'r','')}<h3 style="margin-top:18px">Year to date</h3><p class="nd">${b.year=='no data'?'No data — yearly history isn\'t tracked yet':b.year}</p>${b.link?`<p style="margin-top:14px"><a style="color:var(--peach)" href="${b.link}" target="_blank">Live dashboard →</a></p>`:''}</div>`;
+ document.querySelectorAll('.m b').forEach(e=>{const v=+e.dataset.v,t0=performance.now();(function f(t){const p=Math.min(1,(t-t0)/900);e.textContent=Math.round(v*p*(2-p));if(p<1)requestAnimationFrame(f)})(t0)});
+ charts.forEach(c=>c.destroy());Chart.defaults.color='#9fb3ad';Chart.defaults.font.family='Work Sans';
+ charts=[new Chart(c1,{type:'doughnut',data:{labels:['Done','Pending','Needs Nick'],datasets:[{data:[b.done.length,b.pending.length,b.needs.length],backgroundColor:['#2fd3b5','#ff8a80','#f4c39a'],borderWidth:0,hoverOffset:8}]},options:{cutout:'72%',maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:8,usePointStyle:true}}}}}),
+ new Chart(c2,{type:'bar',data:{labels:D.weekDays,datasets:[{data:b.week.map(v=>v==null?0.06:v),backgroundColor:b.week.map(v=>v==null?'rgba(255,255,255,.12)':v==1?'#2fd3b5':v==.5?'#f4c39a':'#ff8a80'),borderRadius:6}]},
+  options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>({1:'Done',.5:'Partial',0:'Failed / missed'})[b.week[c.dataIndex]]??'No data'}}},scales:{y:{display:false,max:1},x:{grid:{display:false}}}}})]}
+// particles
+const cv=$('#fx'),cx=cv.getContext('2d');let P=[];function rs(){cv.width=innerWidth;cv.height=innerHeight}rs();onresize=rs;
+for(let i=0;i<70;i++)P.push({x:Math.random(),y:Math.random(),r:Math.random()*1.8+.3,v:Math.random()*.0004+.0001,a:Math.random()});
+(function loop(){cx.clearRect(0,0,cv.width,cv.height);P.forEach(p=>{p.y-=p.v;if(p.y<0)p.y=1;p.a+=.01;cx.beginPath();cx.arc(p.x*cv.width,p.y*cv.height,p.r,0,7);cx.fillStyle=`rgba(${p.r>1.5?'244,195,154':'120,240,215'},${.25+.25*Math.sin(p.a)})`;cx.fill()});requestAnimationFrame(loop)})();
+</script></body></html>
