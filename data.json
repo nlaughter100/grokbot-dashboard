@@ -1,80 +1,393 @@
 {
- "updated": "2026-10-23T10:50:00-06:00",
- "source": "Merlin daily agent report (Oct 22, 11:15 AM MT) + agent chat logs Oct 19-22",
- "weekDays": ["Mon 19","Tue 20","Wed 21","Thu 22","Fri 23","Sat 24","Sun 25"],
+ "updated": "2026-10-24T11:20:00-06:00",
+ "source": "Merlin daily dashboard update (Oct 24, 11 AM MT): agent chat logs through Oct 23, CRM campaign records, and work files on the shared computer",
+ "weekDays": [
+  "Mon 19",
+  "Tue 20",
+  "Wed 21",
+  "Thu 22",
+  "Fri 23",
+  "Sat 24",
+  "Sun 25"
+ ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
-  {"id":"merlin","name":"Merlin","role":"Chief of Staff","img":"img/merlin.jpg","status":"attention",
-   "headline":"Running the team & the reports",
-   "routines":["Weekly Denver Top 50 — Mon 9:15 AM MT","Daily agent report — 11 AM MT"],
-   "done":["Daily agent report emailed Oct 21 & Oct 22","3 Argento CRM YouTube videos published (Hunter.io, MCP Connect, Campaigns)","Gemini backup handoff set up via Composio"],
-   "pending":["Weekly Denver Top 50 failed Mon Oct 19 — not resent","Today's 11 AM report not yet run at time of build"],
-   "needs":[],
-   "week":[0,null,1,1,null,null,null],
-   "metrics":[{"label":"YouTube videos","value":3},{"label":"Reports sent","value":2}],
-   "year":"no data"},
-  {"id":"wholesale","name":"Hommie","role":"Lead gen & outreach","img":"img/wholesale.jpg","status":"attention",
-   "headline":"50 leads a day, Reoon-verified",
-   "routines":["Daily 50 leads + 5 outreach campaigns"],
-   "done":["Oct 21: 50 emails sent across 5 campaigns, 0 failed","Oct 22: 50 Reoon-verified leads imported by 7:47 AM","Workspace at 521 companies / 521 contacts (Oct 21)"],
-   "pending":["Oct 22 campaign not created/sent as of 11:10 AM","Oct 19: no campaign sent"],
-   "needs":[],
-   "week":[0,null,1,0.5,null,null,null],
-   "metrics":[{"label":"Emails sent (wk)","value":50},{"label":"Leads imported (wk)","value":100}],
-   "year":"no data"},
-  {"id":"colorado","name":"Burpee","role":"Content & social","img":"img/colorado.jpg","status":"ok",
-   "headline":"5 Colorado stories a day",
-   "routines":["Daily 5 posts + social — 6:55 AM MT"],
-   "done":["Oct 22: 5 posts live by 7:40 AM with FB + IG posts","Oct 21: 5 posts + Explorer Map entries","Oct 19: 5 posts (run manually after usage reset)"],
-   "pending":[],
-   "needs":["Add Oct 22 Explorer Map listings by hand in WordPress"],
-   "week":[1,null,1,1,null,null,null],
-   "metrics":[{"label":"Articles (wk)","value":15},{"label":"Social posts (wk)","value":30}],
-   "year":"no data"},
-  {"id":"allclear","name":"Codey","role":"Partner outreach","img":"img/allclear.jpg","status":"blocked",
-   "headline":"Waiting on business details",
-   "routines":["No daily routine"],
-   "done":["Oct 19: website & Google presence audit","Oct 19: 13 verified referral partners found"],
-   "pending":["13-partner campaign draft on hold","No new work since Oct 19"],
-   "needs":["Business phone number","Confirm 24/7 response","Which address partner emails send from"],
-   "week":[null,null,null,null,null,null,null],
-   "metrics":[{"label":"Partners found","value":13}],
-   "year":"no data"},
-  {"id":"weather","name":"Breezy","role":"Kalshi Denver briefings","img":"img/weather.jpg","status":"ok",
-   "headline":"Daily Denver high-temp briefing",
-   "routines":["Kalshi briefing — 2:50 PM MT daily"],
-   "done":["Oct 19, 20, 21 briefings ran (Strategies A & B: SKIP)","Brief emailed + live dashboard updated"],
-   "pending":["Oct 22 briefing not yet run at report time (2:50 PM)"],
-   "needs":["Open offer: backtest a looser Strategy A"],
-   "week":[1,1,1,null,null,null,null],
-   "metrics":[{"label":"Briefings (wk)","value":3},{"label":"Bets placed (wk)","value":0}],
-   "year":"no data","link":"https://nlaughter100.github.io/denver-wx-xlyiuz/"},
-  {"id":"moneyshot","name":"Cha-Ching","role":"Etsy & Fiverr","img":"img/moneyshot.jpg","status":"blocked",
-   "headline":"Shop at 21 active listings",
-   "routines":["No routines"],
-   "done":["Oct 19: 8 holiday listings published","Oct 20: 7 Thanksgiving listings published (21 active)"],
-   "pending":["4 Fiverr gigs drafted, unpublished","No new work since Oct 20"],
-   "needs":["Verify phone on Fiverr so gigs can publish"],
-   "week":[1,1,null,null,null,null,null],
-   "metrics":[{"label":"Listings added (wk)","value":15},{"label":"Active listings","value":21}],
-   "year":"no data"},
-  {"id":"accelerated","name":"Accelero","role":"Agency outreach","img":"img/accelerated.jpg","status":"attention",
-   "headline":"$150 site offer outreach",
-   "routines":["Daily campaign build — 3:24 PM MT","LinkedIn connection run"],
-   "done":["Campaign 87: 50 Reoon-checked leads sent Oct 22, 8:31 AM","Oct 21: 50 overdue follow-ups sent","LinkedIn: 40 of 50 weekly connection requests","3 prospect replies sent"],
-   "pending":["WarmySender $150 follow-up sequence still draft, 0 enrolled","WarmySender lead export allowance used (100/100)"],
-   "needs":["Approve LinkedIn message draft (1 prospect)"],
-   "week":[0.5,null,1,1,null,null,null],
-   "metrics":[{"label":"Emails sent (wk)","value":100},{"label":"LinkedIn requests (wk)","value":40}],
-   "year":"no data"},
-  {"id":"argento","name":"Argento","role":"SaaS outreach & social","img":"img/argento.jpg","status":"ok",
-   "headline":"Argento Daily is humming",
-   "routines":["Argento Daily — 50 leads + campaign","Daily social post 9 AM MT","Reply checker every 30 min"],
-   "done":["Oct 22: campaign 88 sent to 50, 0 failed / 0 bounced","Oct 21: 50 sent at 10:51 AM","Oct 19: 50 sent at 5:23 PM","Daily social posts on FB, IG, LinkedIn"],
-   "pending":[],
-   "needs":[],
-   "week":[1,null,1,1,null,null,null],
-   "metrics":[{"label":"Emails sent (wk)","value":150},{"label":"Bounces","value":0}],
-   "year":"no data"}
+  {
+   "id": "merlin",
+   "name": "Merlin",
+   "role": "Chief of Staff",
+   "img": "img/merlin.jpg",
+   "status": "ok",
+   "headline": "Running the team & the dashboard",
+   "routines": [
+    "Weekly Denver Top 50 \u2014 Mon 9:15 AM MT",
+    "Daily dashboard update \u2014 11 AM MT"
+   ],
+   "done": [
+    "Oct 23: PS5-style Grok Bots dashboard built and published",
+    "Oct 23: daily report email stopped; 11 AM run now updates this dashboard",
+    "Oct 23: system-email rule relayed to all bots",
+    "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey",
+    "Oct 24: dashboard refreshed at 11 AM"
+   ],
+   "pending": [
+    "Weekly Denver Top 50 failed Mon Oct 19; next run Mon Oct 26"
+   ],
+   "needs": [],
+   "week": [
+    0,
+    null,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "YouTube videos",
+     "value": 3
+    },
+    {
+     "label": "Routines moved",
+     "value": 2
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "wholesale",
+   "name": "Hommie",
+   "role": "New role (formerly Wholesale Merchant)",
+   "img": "img/wholesale.jpg",
+   "status": "ok",
+   "headline": "Routine handed to Codey",
+   "routines": [
+    "No routines (daily leads moved to Codey Oct 23)"
+   ],
+   "done": [
+    "Oct 23: 50 campaign emails sent across 5 campaigns, 0 failed",
+    "Oct 23: backlink plan built (116 vetted directories)",
+    "Oct 23: daily routine handed to Codey, then deleted"
+   ],
+   "pending": [
+    "Backlink submissions not started"
+   ],
+   "needs": [
+    "Business phone, address and signup inbox for thewholesalemerchant.com directory listings"
+   ],
+   "week": [
+    0,
+    null,
+    1,
+    0.5,
+    1,
+    null,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Emails sent (wk)",
+     "value": 100
+    },
+    {
+     "label": "Leads imported (wk)",
+     "value": 100
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "colorado",
+   "name": "Burpee",
+   "role": "Content & social (formerly Colorado Lifestyle)",
+   "img": "img/colorado.jpg",
+   "status": "ok",
+   "headline": "Daily posts handed to Codey",
+   "routines": [
+    "No routines (daily posts moved to Codey Oct 23)"
+   ],
+   "done": [
+    "Oct 23: confirmed no system emails to change",
+    "Oct 23: daily posts routine handed to Codey, then deleted"
+   ],
+   "pending": [],
+   "needs": [],
+   "week": [
+    1,
+    null,
+    1,
+    1,
+    null,
+    null,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Articles (wk)",
+     "value": 15
+    },
+    {
+     "label": "Social posts (wk)",
+     "value": 30
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "allclear",
+   "name": "Codey",
+   "role": "All Clear, Wholesale Merchant & Colorado Lifestyle",
+   "img": "img/allclear.jpg",
+   "status": "attention",
+   "headline": "Now running 3 businesses' daily work",
+   "routines": [
+    "Colorado Lifestyle 5 posts + social \u2014 ~6:55 AM MT daily",
+    "Wholesale Merchant 50 leads + campaign \u2014 ~7:17 AM MT daily",
+    "All Clear backlinks \u2014 weekdays ~9 AM MT",
+    "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
+   ],
+   "done": [
+    "Oct 24: 5 mycolorado.lifestyle posts published with SEO and verified photos",
+    "Oct 24: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
+    "Oct 24: 50 new leads imported to the Wholesale Merchant CRM",
+    "Oct 23: 50 Northern Colorado leads added to the All Clear CRM",
+    "Oct 23: 5 directory accounts created for All Clear"
+   ],
+   "pending": [
+    "5 All Clear directory listings waiting on email confirmation",
+    "Oct 24 Explorer Map listings: not confirmed",
+    "Oct 24 Colorado social posts: drafted, not confirmed live"
+   ],
+   "needs": [
+    "Sign in to the All Clear Gmail so directory listings can be confirmed"
+   ],
+   "week": [
+    null,
+    null,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Posts published today",
+     "value": 5
+    },
+    {
+     "label": "WM emails sent today",
+     "value": 50
+    },
+    {
+     "label": "All Clear leads (wk)",
+     "value": 50
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "weather",
+   "name": "Breezy",
+   "role": "Kalshi Denver briefings",
+   "img": "img/weather.jpg",
+   "status": "ok",
+   "headline": "Daily Denver high-temp briefing",
+   "routines": [
+    "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
+   ],
+   "done": [
+    "Oct 19\u201323 briefings ran (Strategies A & B: SKIP each day)",
+    "Oct 23: email relay set up so briefs send from grokbot@clientcentral.pro",
+    "Oct 23 brief resent through the relay"
+   ],
+   "pending": [
+    "Oct 24 briefing not yet run (due 2:50 PM MT)"
+   ],
+   "needs": [
+    "Open offer: backtest a looser Strategy A"
+   ],
+   "week": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Briefings (wk)",
+     "value": 5
+    },
+    {
+     "label": "Bets placed (wk)",
+     "value": 0
+    }
+   ],
+   "year": "no data",
+   "link": "https://nlaughter100.github.io/denver-wx-xlyiuz/"
+  },
+  {
+   "id": "moneyshot",
+   "name": "Cha-Ching",
+   "role": "Etsy & Fiverr",
+   "img": "img/moneyshot.jpg",
+   "status": "attention",
+   "headline": "4 Fiverr gigs live",
+   "routines": [
+    "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
+   ],
+   "done": [
+    "Oct 23: all 4 Fiverr gigs published",
+    "Oct 23: Fiverr monitor set up (orders, messages, reviews)",
+    "Oct 23: flagged a phishing message on Fiverr"
+   ],
+   "pending": [
+    "Fiverr alert emails blocked: outgoing mail times out from the bot computer",
+    "No Oct 24 Fiverr check results found"
+   ],
+   "needs": [
+    "Open and reply to 2 Fiverr buyer messages"
+   ],
+   "week": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    null,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Fiverr gigs live",
+     "value": 4
+    },
+    {
+     "label": "Active Etsy listings",
+     "value": 21
+    },
+    {
+     "label": "Fiverr orders",
+     "value": 0
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "accelerated",
+   "name": "Accelero",
+   "role": "Agency outreach",
+   "img": "img/accelerated.jpg",
+   "status": "attention",
+   "headline": "$150 site offer outreach",
+   "routines": [
+    "Daily 50-lead campaign \u2014 weekdays",
+    "Backlinks \u2014 weekdays ~11 AM MT",
+    "LinkedIn & Alignable outreach \u2014 weekdays ~10 AM MT",
+    "Social posts \u2014 weekdays ~9 AM MT",
+    "Web design job search \u2014 Mondays ~noon MT"
+   ],
+   "done": [
+    "Oct 23: campaign 95 sent to 50, 0 failed",
+    "Oct 23: 100 leads enrolled in WarmySender $150 follow-ups (start Mon)",
+    "Oct 23: 5 web design RFPs added as Deals; 3 proposals drafted",
+    "Oct 23: 57 placeholder contact names fixed",
+    "Oct 23: LinkedIn weekly limit reached (50 requests)",
+    "Monday's campaign 96 scheduled for 50 leads, 8:30 AM MT"
+   ],
+   "pending": [
+    "Backlinks: only 1 new profile Oct 23, several held by bot checks",
+    "WarmySender bounce flags on 26 good leads can't be cleared via API"
+   ],
+   "needs": [
+    "Review 3 RFP proposals (Moffat EDA due Nov 19)",
+    "Approve 4 guest-post pitches",
+    "OK to create directory accounts (pick passwords)"
+   ],
+   "week": [
+    0.5,
+    null,
+    1,
+    1,
+    1,
+    null,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Emails sent (wk)",
+     "value": 180
+    },
+    {
+     "label": "LinkedIn requests (wk)",
+     "value": 50
+    },
+    {
+     "label": "Deals added",
+     "value": 5
+    }
+   ],
+   "year": "no data"
+  },
+  {
+   "id": "argento",
+   "name": "Argento",
+   "role": "SaaS outreach & social",
+   "img": "img/argento.jpg",
+   "status": "ok",
+   "headline": "Argento Daily is humming",
+   "routines": [
+    "Argento Daily \u2014 50 leads + campaign (weekdays)",
+    "Daily social post 9 AM MT",
+    "Daily YouTube video ~11:13 AM MT",
+    "Backlinks \u2014 weekdays ~10 AM MT",
+    "Reply checker every 30 min",
+    "LinkedIn outreach (paused)"
+   ],
+   "done": [
+    "Oct 23: campaign 89 sent to 50, 0 failed",
+    "Oct 23: first daily YouTube video published",
+    "Oct 23: 6 free directory listings submitted, Indie Hackers live",
+    "Oct 24: social post scheduled for 9 AM on FB, IG, LinkedIn",
+    "Oct 23: promo image and hero banner made"
+   ],
+   "pending": [
+    "Oct 24 YouTube video: not confirmed",
+    "LinkedIn outreach paused (account at weekly limit)"
+   ],
+   "needs": [
+    "Click AlternativeTo confirmation link",
+    "Set vendor passwords on SaaSworthy, SoftwareSuggest, SaaSHub",
+    "Review 5 drafted pitches"
+   ],
+   "week": [
+    1,
+    null,
+    1,
+    1,
+    1,
+    0.5,
+    null
+   ],
+   "metrics": [
+    {
+     "label": "Emails sent (wk)",
+     "value": 250
+    },
+    {
+     "label": "YouTube videos",
+     "value": 1
+    },
+    {
+     "label": "Bounces",
+     "value": 0
+    }
+   ],
+   "year": "no data"
+  }
  ]
 }
