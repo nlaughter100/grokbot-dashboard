@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T11:20:00-06:00",
- "source": "Merlin daily dashboard update (Oct 24, 11 AM MT): agent chat logs through Oct 23, CRM campaign records, and work files on the shared computer",
+ "updated": "2026-10-25T11:15:00-06:00",
+ "source": "Merlin daily dashboard update (Sun Oct 25, 11 AM MT): CRM campaign records, routine logs and work files on the shared computer through Oct 25 morning",
  "weekDays": [
   "Mon 19",
   "Tue 20",
@@ -24,14 +24,14 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
-    "Oct 23: PS5-style Grok Bots dashboard built and published",
     "Oct 23: daily report email stopped; 11 AM run now updates this dashboard",
     "Oct 23: system-email rule relayed to all bots",
     "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey",
-    "Oct 24: dashboard refreshed at 11 AM"
+    "Oct 24: dashboard refreshed at 11 AM",
+    "Oct 25: dashboard refreshed at 11 AM"
    ],
    "pending": [
-    "Weekly Denver Top 50 failed Mon Oct 19; next run Mon Oct 26"
+    "Weekly Denver Top 50 failed Mon Oct 19; next run Mon Oct 26, 9:15 AM MT"
    ],
    "needs": [],
    "week": [
@@ -41,7 +41,7 @@
     1,
     1,
     1,
-    null
+    1
    ],
    "metrics": [
     {
@@ -148,16 +148,17 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Oct 24: 5 mycolorado.lifestyle posts published with SEO and verified photos",
-    "Oct 24: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
-    "Oct 24: 50 new leads imported to the Wholesale Merchant CRM",
-    "Oct 23: 50 Northern Colorado leads added to the All Clear CRM",
-    "Oct 23: 5 directory accounts created for All Clear"
+    "Oct 25: 5 mycolorado.lifestyle posts published with SEO and 9-photo galleries, verified live",
+    "Oct 25: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
+    "Oct 25: 50 new leads imported to the Wholesale Merchant CRM",
+    "Oct 24: 5 posts published and 50 Wholesale Merchant emails sent, 0 failed",
+    "Oct 23: 50 Northern Colorado leads added to the All Clear CRM"
    ],
    "pending": [
     "5 All Clear directory listings waiting on email confirmation",
-    "Oct 24 Explorer Map listings: not confirmed",
-    "Oct 24 Colorado social posts: drafted, not confirmed live"
+    "Oct 25 Explorer Map listings: not confirmed",
+    "Oct 25 Colorado social posts: not confirmed live",
+    "All Clear backlinks and leads are weekday-only (next run Mon)"
    ],
    "needs": [
     "Sign in to the All Clear Gmail so directory listings can be confirmed"
@@ -169,7 +170,7 @@
     null,
     1,
     1,
-    null
+    1
    ],
    "metrics": [
     {
@@ -181,8 +182,8 @@
      "value": 50
     },
     {
-     "label": "All Clear leads (wk)",
-     "value": 50
+     "label": "WM emails sent (wk)",
+     "value": 150
     }
    ],
    "year": "no data"
@@ -198,12 +199,13 @@
     "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
+    "Oct 24 briefing ran (A & B: SKIP; high set just after midnight, 57F)",
     "Oct 19\u201323 briefings ran (Strategies A & B: SKIP each day)",
     "Oct 23: email relay set up so briefs send from grokbot@clientcentral.pro",
-    "Oct 23 brief resent through the relay"
+    "Oct 24: weather dashboard rebuilt"
    ],
    "pending": [
-    "Oct 24 briefing not yet run (due 2:50 PM MT)"
+    "Oct 25 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -214,13 +216,13 @@
     1,
     1,
     1,
-    null,
+    1,
     null
    ],
    "metrics": [
     {
      "label": "Briefings (wk)",
-     "value": 5
+     "value": 6
     },
     {
      "label": "Bets placed (wk)",
@@ -235,31 +237,29 @@
    "name": "Cha-Ching",
    "role": "Etsy & Fiverr",
    "img": "img/moneyshot.jpg",
-   "status": "attention",
-   "headline": "4 Fiverr gigs live",
+   "status": "ok",
+   "headline": "4 Fiverr gigs live, watching for orders",
    "routines": [
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Oct 23: all 4 Fiverr gigs published",
-    "Oct 23: Fiverr monitor set up (orders, messages, reviews)",
-    "Oct 23: flagged a phishing message on Fiverr"
+    "Oct 24\u201325: Fiverr checked every 2 hrs (latest 10:05 AM MT Oct 25): 0 orders, no warnings",
+    "Oct 25: first gig impressions (5 total across 3 gigs, 0 clicks)",
+    "Oct 24: 4th spam inbox thread flagged, already removed by Fiverr",
+    "Oct 23: all 4 Fiverr gigs published"
    ],
    "pending": [
-    "Fiverr alert emails blocked: outgoing mail times out from the bot computer",
-    "No Oct 24 Fiverr check results found"
+    "Fiverr alert email path not rechecked since Oct 23 (outgoing mail was timing out)"
    ],
-   "needs": [
-    "Open and reply to 2 Fiverr buyer messages"
-   ],
+   "needs": [],
    "week": [
     1,
     1,
     null,
     null,
     1,
-    null,
-    null
+    1,
+    1
    ],
    "metrics": [
     {
@@ -267,8 +267,8 @@
      "value": 4
     },
     {
-     "label": "Active Etsy listings",
-     "value": 21
+     "label": "Gig impressions",
+     "value": 5
     },
     {
      "label": "Fiverr orders",
@@ -292,16 +292,17 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
+    "Oct 24: freewebsites.agency one-page site built (Rev the fox mascot), not yet deployed",
     "Oct 23: campaign 95 sent to 50, 0 failed",
     "Oct 23: 100 leads enrolled in WarmySender $150 follow-ups (start Mon)",
     "Oct 23: 5 web design RFPs added as Deals; 3 proposals drafted",
     "Oct 23: 57 placeholder contact names fixed",
-    "Oct 23: LinkedIn weekly limit reached (50 requests)",
-    "Monday's campaign 96 scheduled for 50 leads, 8:30 AM MT"
+    "Oct 23: LinkedIn weekly limit reached (50 requests)"
    ],
    "pending": [
     "Backlinks: only 1 new profile Oct 23, several held by bot checks",
-    "WarmySender bounce flags on 26 good leads can't be cleared via API"
+    "WarmySender bounce flags on 26 good leads can't be cleared via API",
+    "Weekday routines idle for the weekend; campaign 96 goes out Mon 8:30 AM MT"
    ],
    "needs": [
     "Review 3 RFP proposals (Moffat EDA due Nov 19)",
@@ -349,14 +350,15 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
+    "Oct 25: Projects feature social post scheduled for 9 AM on FB, IG, LinkedIn",
+    "Oct 24: daily YouTube video published (Deals pipeline)",
+    "Oct 24: Workspaces feature social post scheduled for 9 AM",
     "Oct 23: campaign 89 sent to 50, 0 failed",
-    "Oct 23: first daily YouTube video published",
-    "Oct 23: 6 free directory listings submitted, Indie Hackers live",
-    "Oct 24: social post scheduled for 9 AM on FB, IG, LinkedIn",
-    "Oct 23: promo image and hero banner made"
+    "Oct 23: first daily YouTube video published"
    ],
    "pending": [
-    "Oct 24 YouTube video: not confirmed",
+    "Oct 25 YouTube video: due ~11:13 AM MT, not yet confirmed",
+    "Email campaign and backlinks are weekday-only (next run Mon)",
     "LinkedIn outreach paused (account at weekly limit)"
    ],
    "needs": [
@@ -370,8 +372,8 @@
     1,
     1,
     1,
-    0.5,
-    null
+    1,
+    0.5
    ],
    "metrics": [
     {
@@ -380,7 +382,7 @@
     },
     {
      "label": "YouTube videos",
-     "value": 1
+     "value": 2
     },
     {
      "label": "Bounces",
