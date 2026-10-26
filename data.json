@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-25T11:15:00-06:00",
- "source": "Merlin daily dashboard update (Sun Oct 25, 11 AM MT): CRM campaign records, routine logs and work files on the shared computer through Oct 25 morning",
+ "updated": "2026-10-26T11:15:00-06:00",
+ "source": "Merlin daily dashboard update (Mon Oct 26, 11 AM MT): CRM and WarmySender campaign records, routine logs and work files on the shared computer through Oct 26 morning",
  "weekDays": [
-  "Mon 19",
   "Tue 20",
   "Wed 21",
   "Thu 22",
   "Fri 23",
   "Sat 24",
-  "Sun 25"
+  "Sun 25",
+  "Mon 26"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,19 +24,17 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
-    "Oct 23: daily report email stopped; 11 AM run now updates this dashboard",
-    "Oct 23: system-email rule relayed to all bots",
-    "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey",
+    "Oct 26: Weekly Denver Top 50 ran at 9:24 AM MT",
+    "Oct 26: dashboard refreshed at 11 AM",
+    "Oct 25: dashboard refreshed at 11 AM",
     "Oct 24: dashboard refreshed at 11 AM",
-    "Oct 25: dashboard refreshed at 11 AM"
+    "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey"
    ],
-   "pending": [
-    "Weekly Denver Top 50 failed Mon Oct 19; next run Mon Oct 26, 9:15 AM MT"
-   ],
+   "pending": [],
    "needs": [],
    "week": [
-    0,
     null,
+    1,
     1,
     1,
     1,
@@ -58,17 +56,16 @@
   {
    "id": "wholesale",
    "name": "Hommie",
-   "role": "New role (formerly Wholesale Merchant)",
+   "role": "Home & truck (formerly Wholesale Merchant)",
    "img": "img/wholesale.jpg",
    "status": "ok",
-   "headline": "Routine handed to Codey",
+   "headline": "Home and truck upkeep, no daily routines",
    "routines": [
-    "No routines (daily leads moved to Codey Oct 23)"
+    "No routines (Wholesale Merchant leads moved to Codey Oct 23)"
    ],
    "done": [
-    "Oct 23: 50 campaign emails sent across 5 campaigns, 0 failed",
-    "Oct 23: backlink plan built (116 vetted directories)",
-    "Oct 23: daily routine handed to Codey, then deleted"
+    "Oct 23: backlink plan built for thewholesalemerchant.com (116 vetted directories)",
+    "Oct 23: daily leads routine handed to Codey"
    ],
    "pending": [
     "Backlink submissions not started"
@@ -77,22 +74,18 @@
     "Business phone, address and signup inbox for thewholesalemerchant.com directory listings"
    ],
    "week": [
-    0,
     null,
     1,
     0.5,
     1,
     null,
+    null,
     null
    ],
    "metrics": [
     {
-     "label": "Emails sent (wk)",
-     "value": 100
-    },
-    {
-     "label": "Leads imported (wk)",
-     "value": 100
+     "label": "Daily routines",
+     "value": 0
     }
    ],
    "year": "no data"
@@ -100,36 +93,31 @@
   {
    "id": "colorado",
    "name": "Burpee",
-   "role": "Content & social (formerly Colorado Lifestyle)",
+   "role": "Health & fitness (formerly Colorado Lifestyle)",
    "img": "img/colorado.jpg",
    "status": "ok",
-   "headline": "Daily posts handed to Codey",
+   "headline": "Health companion, no daily routines",
    "routines": [
     "No routines (daily posts moved to Codey Oct 23)"
    ],
    "done": [
-    "Oct 23: confirmed no system emails to change",
-    "Oct 23: daily posts routine handed to Codey, then deleted"
+    "Oct 23: daily posts routine handed to Codey"
    ],
    "pending": [],
    "needs": [],
    "week": [
-    1,
     null,
     1,
     1,
+    null,
     null,
     null,
     null
    ],
    "metrics": [
     {
-     "label": "Articles (wk)",
-     "value": 15
-    },
-    {
-     "label": "Social posts (wk)",
-     "value": 30
+     "label": "Daily routines",
+     "value": 0
     }
    ],
    "year": "no data"
@@ -140,7 +128,7 @@
    "role": "All Clear, Wholesale Merchant & Colorado Lifestyle",
    "img": "img/allclear.jpg",
    "status": "attention",
-   "headline": "Now running 3 businesses' daily work",
+   "headline": "Running 3 businesses' daily work",
    "routines": [
     "Colorado Lifestyle 5 posts + social \u2014 ~6:55 AM MT daily",
     "Wholesale Merchant 50 leads + campaign \u2014 ~7:17 AM MT daily",
@@ -148,26 +136,27 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Oct 25: 5 mycolorado.lifestyle posts published with SEO and 9-photo galleries, verified live",
-    "Oct 25: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
-    "Oct 25: 50 new leads imported to the Wholesale Merchant CRM",
-    "Oct 24: 5 posts published and 50 Wholesale Merchant emails sent, 0 failed",
-    "Oct 23: 50 Northern Colorado leads added to the All Clear CRM"
+    "Oct 26: 5 mycolorado.lifestyle posts published with SEO, 7-9 photo galleries and FAQ schema, verified live",
+    "Oct 26: 10 Facebook/Instagram posts scheduled 7:20-7:40 AM MT",
+    "Oct 26: 5 Explorer Map listings added, no duplicates",
+    "Oct 26: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
+    "Oct 26: 50 new Wholesale Merchant leads imported to the CRM",
+    "Oct 26: 50 new Northern Colorado leads logged for All Clear",
+    "Oct 26: All Clear resource-page link pitch drafted (not sent)"
    ],
    "pending": [
     "5 All Clear directory listings waiting on email confirmation",
-    "Oct 25 Explorer Map listings: not confirmed",
-    "Oct 25 Colorado social posts: not confirmed live",
-    "All Clear backlinks and leads are weekday-only (next run Mon)"
+    "56 All Clear backlink targets still to do"
    ],
    "needs": [
+    "Review the All Clear resource-page pitch draft before anything goes out",
     "Sign in to the All Clear Gmail so directory listings can be confirmed"
    ],
    "week": [
     null,
     null,
     null,
-    null,
+    1,
     1,
     1,
     1
@@ -182,7 +171,7 @@
      "value": 50
     },
     {
-     "label": "WM emails sent (wk)",
+     "label": "WM emails sent (Oct 24-26)",
      "value": 150
     }
    ],
@@ -199,13 +188,13 @@
     "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
-    "Oct 24 briefing ran (A & B: SKIP; high set just after midnight, 57F)",
-    "Oct 19\u201323 briefings ran (Strategies A & B: SKIP each day)",
-    "Oct 23: email relay set up so briefs send from grokbot@clientcentral.pro",
-    "Oct 24: weather dashboard rebuilt"
+    "Oct 25 briefing ran (A & B: SKIP; predicted high 59F)",
+    "Oct 24 briefing ran (A & B: SKIP; high 57F, predicted exactly)",
+    "Oct 20-23 briefings ran (Strategies A & B: SKIP each day)",
+    "Oct 23: briefs now send from the Grok Bot relay address"
    ],
    "pending": [
-    "Oct 25 briefing not yet run (due 2:50 PM MT)"
+    "Oct 26 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -221,11 +210,11 @@
    ],
    "metrics": [
     {
-     "label": "Briefings (wk)",
+     "label": "Briefings (7 days)",
      "value": 6
     },
     {
-     "label": "Bets placed (wk)",
+     "label": "Bets placed (7 days)",
      "value": 0
     }
    ],
@@ -238,25 +227,30 @@
    "role": "Etsy & Fiverr",
    "img": "img/moneyshot.jpg",
    "status": "ok",
-   "headline": "4 Fiverr gigs live, watching for orders",
+   "headline": "4 Fiverr gigs live, Lemon Squeezy store ready to launch",
    "routines": [
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Oct 24\u201325: Fiverr checked every 2 hrs (latest 10:05 AM MT Oct 25): 0 orders, no warnings",
-    "Oct 25: first gig impressions (5 total across 3 gigs, 0 clicks)",
-    "Oct 24: 4th spam inbox thread flagged, already removed by Fiverr",
+    "Oct 26: Fiverr checked through 10:05 AM MT: 0 orders, no warnings",
+    "Oct 25: Lemon Squeezy catalog of 12 printable products and 2 service offers prepared (watrdesigns brand)",
+    "Oct 24-25: Fiverr checked every 2 hrs, 0 orders",
     "Oct 23: all 4 Fiverr gigs published"
    ],
    "pending": [
-    "Fiverr alert email path not rechecked since Oct 23 (outgoing mail was timing out)"
+    "Fiverr profile only 35% complete",
+    "Fiverr alert email path not rechecked since Oct 23"
    ],
-   "needs": [],
+   "needs": [
+    "Open the Lemon Squeezy store and connect payouts",
+    "Add tax/business details on Lemon Squeezy",
+    "Approve meeting-notes and Sheets package prices"
+   ],
    "week": [
     1,
+    null,
+    null,
     1,
-    null,
-    null,
     1,
     1,
     1
@@ -268,7 +262,7 @@
     },
     {
      "label": "Gig impressions",
-     "value": 5
+     "value": 11
     },
     {
      "label": "Fiverr orders",
@@ -283,7 +277,7 @@
    "role": "Agency outreach",
    "img": "img/accelerated.jpg",
    "status": "attention",
-   "headline": "$150 site offer outreach",
+   "headline": "Free Website drip + $150 site outreach",
    "routines": [
     "Daily 50-lead campaign \u2014 weekdays",
     "Backlinks \u2014 weekdays ~11 AM MT",
@@ -292,44 +286,43 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
-    "Oct 24: freewebsites.agency one-page site built (Rev the fox mascot), not yet deployed",
-    "Oct 23: campaign 95 sent to 50, 0 failed",
-    "Oct 23: 100 leads enrolled in WarmySender $150 follow-ups (start Mon)",
-    "Oct 23: 5 web design RFPs added as Deals; 3 proposals drafted",
-    "Oct 23: 57 placeholder contact names fixed",
-    "Oct 23: LinkedIn weekly limit reached (50 requests)"
+    "Oct 26: $150/mo special posted on Facebook, Instagram, X, Google and LinkedIn",
+    "Oct 26: 10 LinkedIn connection requests sent; approved message sent to a new connection",
+    "Oct 26: 10 Alignable conversation starters sent",
+    "Oct 25: Free Website 3-email drip launched to 50 Reoon-safe leads",
+    "Free Website drips so far: 27 emails sent, 3 clicks, 0 bounces"
    ],
    "pending": [
-    "Backlinks: only 1 new profile Oct 23, several held by bot checks",
-    "WarmySender bounce flags on 26 good leads can't be cleared via API",
-    "Weekday routines idle for the weekend; campaign 96 goes out Mon 8:30 AM MT"
+    "Campaign 96 ($150 Bundle, Mon 8:30 AM MT) status: no data, CRM connector not readable",
+    "Original Free Website drip paused at 17 sent; new freewebsites.agency mailbox drip running",
+    "Backlinks run (~11 AM MT) not yet checked"
    ],
    "needs": [
+    "Reconnect the Argento CRM (Accelerated Websites) connector (was returning bad responses Oct 25)",
     "Review 3 RFP proposals (Moffat EDA due Nov 19)",
-    "Approve 4 guest-post pitches",
-    "OK to create directory accounts (pick passwords)"
+    "Approve 4 guest-post pitches"
    ],
    "week": [
-    0.5,
     null,
     1,
     1,
     1,
     null,
-    null
+    1,
+    0.5
    ],
    "metrics": [
     {
-     "label": "Emails sent (wk)",
-     "value": 180
+     "label": "Drip emails sent",
+     "value": 27
     },
     {
-     "label": "LinkedIn requests (wk)",
-     "value": 50
+     "label": "LinkedIn requests (this wk)",
+     "value": 10
     },
     {
-     "label": "Deals added",
-     "value": 5
+     "label": "Alignable messages today",
+     "value": 10
     }
    ],
    "year": "no data"
@@ -350,25 +343,25 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
-    "Oct 25: Projects feature social post scheduled for 9 AM on FB, IG, LinkedIn",
-    "Oct 24: daily YouTube video published (Deals pipeline)",
-    "Oct 24: Workspaces feature social post scheduled for 9 AM",
-    "Oct 23: campaign 89 sent to 50, 0 failed",
-    "Oct 23: first daily YouTube video published"
+    "Oct 26: 50 new Reoon-safe leads added to the CRM and the 14-day trial drip",
+    "Oct 26: Knowledge Base feature post scheduled 9 AM on FB, IG, LinkedIn",
+    "Oct 25: YouTube video published (Contacts search & filters)",
+    "Oct 25: 50 leads enrolled in the trial drip; listings live on Indie Hackers, AlternativeTo, SaaSHub, TopBusinessSoftware",
+    "Trial drip: 20 emails sent so far today, 0 bounces, 0 replies"
    ],
    "pending": [
-    "Oct 25 YouTube video: due ~11:13 AM MT, not yet confirmed",
-    "Email campaign and backlinks are weekday-only (next run Mon)",
-    "LinkedIn outreach paused (account at weekly limit)"
+    "Oct 26 YouTube video: due ~11:13 AM MT, not yet confirmed",
+    "Backlink work paused by Nick on Oct 25 (Oct 26 run skipped)",
+    "Drip sends continue through 5 PM MT, 50/day cap"
    ],
    "needs": [
-    "Click AlternativeTo confirmation link",
-    "Set vendor passwords on SaaSworthy, SoftwareSuggest, SaaSHub",
-    "Review 5 drafted pitches"
+    "Finish SaaSworthy and SoftwareSuggest verification",
+    "Crunchbase: link a social profile to add the company",
+    "Review 6 drafted pitches"
    ],
    "week": [
-    1,
     null,
+    1,
     1,
     1,
     1,
@@ -377,12 +370,16 @@
    ],
    "metrics": [
     {
-     "label": "Emails sent (wk)",
-     "value": 250
+     "label": "Drip emails sent",
+     "value": 20
+    },
+    {
+     "label": "Prospects in drip",
+     "value": 100
     },
     {
      "label": "YouTube videos",
-     "value": 2
+     "value": 6
     },
     {
      "label": "Bounces",
