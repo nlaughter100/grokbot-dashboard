@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-26T11:15:00-06:00",
- "source": "Merlin daily dashboard update (Mon Oct 26, 11 AM MT): CRM and WarmySender campaign records, routine logs and work files on the shared computer through Oct 26 morning",
+ "updated": "2026-10-27T11:20:00-06:00",
+ "source": "Merlin daily dashboard update (Tue Oct 27, 11 AM MT): CRM and WarmySender campaign records, routine logs and work files on the shared computer through Oct 27 late morning",
  "weekDays": [
-  "Tue 20",
   "Wed 21",
   "Thu 22",
   "Fri 23",
   "Sat 24",
   "Sun 25",
-  "Mon 26"
+  "Mon 26",
+  "Tue 27"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,16 +24,16 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Oct 27: dashboard refreshed at 11 AM",
     "Oct 26: Weekly Denver Top 50 ran at 9:24 AM MT",
     "Oct 26: dashboard refreshed at 11 AM",
     "Oct 25: dashboard refreshed at 11 AM",
-    "Oct 24: dashboard refreshed at 11 AM",
     "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey"
    ],
    "pending": [],
    "needs": [],
    "week": [
-    null,
+    1,
     1,
     1,
     1,
@@ -74,10 +74,10 @@
     "Business phone, address and signup inbox for thewholesalemerchant.com directory listings"
    ],
    "week": [
-    null,
     1,
     0.5,
     1,
+    null,
     null,
     null,
     null
@@ -106,9 +106,9 @@
    "pending": [],
    "needs": [],
    "week": [
+    1,
+    1,
     null,
-    1,
-    1,
     null,
     null,
     null,
@@ -136,30 +136,31 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Oct 26: 5 mycolorado.lifestyle posts published with SEO, 7-9 photo galleries and FAQ schema, verified live",
-    "Oct 26: 10 Facebook/Instagram posts scheduled 7:20-7:40 AM MT",
-    "Oct 26: 5 Explorer Map listings added, no duplicates",
-    "Oct 26: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
-    "Oct 26: 50 new Wholesale Merchant leads imported to the CRM",
-    "Oct 26: 50 new Northern Colorado leads logged for All Clear",
-    "Oct 26: All Clear resource-page link pitch drafted (not sent)"
+    "Oct 27: 5 mycolorado.lifestyle posts published with SEO, 8-10 photo galleries and FAQ schema, verified live",
+    "Oct 27: 10 Facebook/Instagram posts scheduled 7:42-7:58 AM MT",
+    "Oct 27: 5 Explorer Map listings added, no duplicates",
+    "Oct 27: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
+    "Oct 27: 50 new Wholesale Merchant leads imported to the CRM",
+    "Oct 27: 3 All Clear guest-post and vendor-page pitches drafted (not sent)",
+    "Oct 26: 50 new Northern Colorado leads logged for All Clear"
    ],
    "pending": [
+    "Oct 27 All Clear 50-lead run (~10 AM MT): no record found yet",
     "5 All Clear directory listings waiting on email confirmation",
     "56 All Clear backlink targets still to do"
    ],
    "needs": [
-    "Review the All Clear resource-page pitch draft before anything goes out",
+    "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
     "Sign in to the All Clear Gmail so directory listings can be confirmed"
    ],
    "week": [
     null,
     null,
-    null,
     1,
     1,
     1,
-    1
+    1,
+    0.5
    ],
    "metrics": [
     {
@@ -171,8 +172,8 @@
      "value": 50
     },
     {
-     "label": "WM emails sent (Oct 24-26)",
-     "value": 150
+     "label": "WM emails sent (Oct 24-27)",
+     "value": 200
     }
    ],
    "year": "no data"
@@ -190,11 +191,12 @@
    "done": [
     "Oct 25 briefing ran (A & B: SKIP; predicted high 59F)",
     "Oct 24 briefing ran (A & B: SKIP; high 57F, predicted exactly)",
-    "Oct 20-23 briefings ran (Strategies A & B: SKIP each day)",
+    "Oct 21-23 briefings ran (Strategies A & B: SKIP each day)",
     "Oct 23: briefs now send from the Grok Bot relay address"
    ],
    "pending": [
-    "Oct 26 briefing not yet run (due 2:50 PM MT)"
+    "No Oct 26 briefing record found in the trade log",
+    "Oct 27 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -205,13 +207,13 @@
     1,
     1,
     1,
-    1,
+    null,
     null
    ],
    "metrics": [
     {
-     "label": "Briefings (7 days)",
-     "value": 6
+     "label": "Briefings logged (Oct 21-27)",
+     "value": 5
     },
     {
      "label": "Bets placed (7 days)",
@@ -232,9 +234,9 @@
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Oct 26: Fiverr checked through 10:05 AM MT: 0 orders, no warnings",
+    "Oct 27: Fiverr checked through 10:08 AM MT: 0 orders, no warnings",
+    "Oct 26: Fiverr checked every 2 hrs, 8 AM-8 PM MT, 0 orders",
     "Oct 25: Lemon Squeezy catalog of 12 printable products and 2 service offers prepared (watrdesigns brand)",
-    "Oct 24-25: Fiverr checked every 2 hrs, 0 orders",
     "Oct 23: all 4 Fiverr gigs published"
    ],
    "pending": [
@@ -247,9 +249,9 @@
     "Approve meeting-notes and Sheets package prices"
    ],
    "week": [
+    null,
+    null,
     1,
-    null,
-    null,
     1,
     1,
     1,
@@ -261,8 +263,8 @@
      "value": 4
     },
     {
-     "label": "Gig impressions",
-     "value": 11
+     "label": "Gig impressions (30 days)",
+     "value": 25
     },
     {
      "label": "Fiverr orders",
@@ -286,42 +288,44 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
-    "Oct 26: $150/mo special posted on Facebook, Instagram, X, Google and LinkedIn",
-    "Oct 26: 10 LinkedIn connection requests sent; approved message sent to a new connection",
-    "Oct 26: 10 Alignable conversation starters sent",
-    "Oct 25: Free Website 3-email drip launched to 50 Reoon-safe leads",
-    "Free Website drips so far: 27 emails sent, 3 clicks, 0 bounces"
+    "Oct 27: Google Business Profile SEO tip posted on Facebook, Instagram, X, Google and LinkedIn",
+    "Oct 27: 10 LinkedIn connection requests sent",
+    "Oct 27: 2 guest-post pitches drafted (not sent)",
+    "Oct 27: 2 LinkedIn and 5 Alignable follow-up messages drafted for approval",
+    "Oct 26: 4 RFP and job proposals drafted",
+    "Free Website drip (freewebsites.agency mailbox): 61 emails sent, 10 clicks, 1 bounce"
    ],
    "pending": [
-    "Campaign 96 ($150 Bundle, Mon 8:30 AM MT) status: no data, CRM connector not readable",
-    "Original Free Website drip paused at 17 sent; new freewebsites.agency mailbox drip running",
-    "Backlinks run (~11 AM MT) not yet checked"
+    "Daily 50-lead campaign for Oct 27: no data found",
+    "Original Free Website drip still paused at 17 sent",
+    "$150 Bundle day-7 and day-14 follow-ups still in draft"
    ],
    "needs": [
-    "Reconnect the Argento CRM (Accelerated Websites) connector (was returning bad responses Oct 25)",
-    "Review 3 RFP proposals (Moffat EDA due Nov 19)",
-    "Approve 4 guest-post pitches"
+    "Approve 2 LinkedIn and 5 Alignable follow-up drafts",
+    "Approve guest-post pitches (2 new Oct 27)",
+    "Review RFP proposals (Moffat EDA due Nov 19)",
+    "Reconnect the Argento CRM (Accelerated Websites) connector"
    ],
    "week": [
-    null,
     1,
     1,
     1,
     null,
     1,
+    0.5,
     0.5
    ],
    "metrics": [
     {
      "label": "Drip emails sent",
-     "value": 27
+     "value": 78
     },
     {
-     "label": "LinkedIn requests (this wk)",
+     "label": "Drip clicks",
      "value": 10
     },
     {
-     "label": "Alignable messages today",
+     "label": "LinkedIn requests today",
      "value": 10
     }
    ],
@@ -343,16 +347,16 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
-    "Oct 26: 50 new Reoon-safe leads added to the CRM and the 14-day trial drip",
-    "Oct 26: Knowledge Base feature post scheduled 9 AM on FB, IG, LinkedIn",
-    "Oct 25: YouTube video published (Contacts search & filters)",
-    "Oct 25: 50 leads enrolled in the trial drip; listings live on Indie Hackers, AlternativeTo, SaaSHub, TopBusinessSoftware",
-    "Trial drip: 20 emails sent so far today, 0 bounces, 0 replies"
+    "Oct 27: 50 new Reoon-safe leads added to the CRM and the 14-day trial drip",
+    "Oct 27: Documents feature post scheduled 9 AM on FB, IG, LinkedIn",
+    "Oct 26: YouTube video published (Help Desk Tickets)",
+    "Oct 26: Knowledge Base feature post scheduled 9 AM",
+    "Trial drip: 50 emails sent Oct 26, 0 bounces, 0 replies"
    ],
    "pending": [
-    "Oct 26 YouTube video: due ~11:13 AM MT, not yet confirmed",
-    "Backlink work paused by Nick on Oct 25 (Oct 26 run skipped)",
-    "Drip sends continue through 5 PM MT, 50/day cap"
+    "Oct 27 YouTube video: being built (~11:13 AM MT), not yet published",
+    "Backlink work paused by Nick on Oct 25 (Oct 26 and 27 runs skipped)",
+    "Only 24 spare leads left; tomorrow needs fresh research"
    ],
    "needs": [
     "Finish SaaSworthy and SoftwareSuggest verification",
@@ -360,7 +364,7 @@
     "Review 6 drafted pitches"
    ],
    "week": [
-    null,
+    1,
     1,
     1,
     1,
@@ -370,16 +374,16 @@
    ],
    "metrics": [
     {
-     "label": "Drip emails sent",
-     "value": 20
+     "label": "Drip emails sent (Oct 26)",
+     "value": 50
     },
     {
      "label": "Prospects in drip",
-     "value": 100
+     "value": 150
     },
     {
      "label": "YouTube videos",
-     "value": 6
+     "value": 7
     },
     {
      "label": "Bounces",
