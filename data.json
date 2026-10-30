@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-29T11:20:00-06:00",
- "source": "Merlin daily dashboard update (Thu Oct 29, 11 AM MT): CRM and WarmySender campaign records, routine logs and work files on the shared computer through Oct 29 late morning",
+ "updated": "2026-10-30T11:15:00-06:00",
+ "source": "Merlin daily dashboard update (Fri Oct 30, 11 AM MT): routine logs, social and video logs and work files on the shared computer through Oct 30 late morning; Wholesale Merchant CRM connectors were signed out",
  "weekDays": [
-  "Fri 23",
   "Sat 24",
   "Sun 25",
   "Mon 26",
   "Tue 27",
   "Wed 28",
-  "Thu 29"
+  "Thu 29",
+  "Fri 30"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,11 +24,11 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Oct 30: dashboard refreshed at 11 AM",
     "Oct 29: dashboard refreshed at 11 AM",
     "Oct 28: dashboard refreshed at 11 AM",
     "Oct 27: dashboard refreshed at 11 AM",
-    "Oct 26: Weekly Denver Top 50 ran at 9:24 AM MT",
-    "Oct 23: Wholesale Merchant and Colorado Lifestyle routines moved to Codey"
+    "Oct 26: Weekly Denver Top 50 ran at 9:24 AM MT"
    ],
    "pending": [],
    "needs": [],
@@ -74,7 +74,7 @@
     "Business phone, address and signup inbox for thewholesalemerchant.com directory listings"
    ],
    "week": [
-    1,
+    null,
     null,
     null,
     null,
@@ -136,21 +136,21 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Oct 29: 5 mycolorado.lifestyle posts published (Fort Collins, Denver cathedral, Golden, Cripple Creek, Confluence Park) with SEO, 9-photo galleries and FAQ schema, verified live",
-    "Oct 29: 10 Facebook/Instagram posts published 7:21-7:37 AM MT",
-    "Oct 28: 5 posts and 10 social posts published",
+    "Oct 30: 5 mycolorado.lifestyle posts published (Animas Forks, Ashcroft, Paramount Theatre, Denver Performing Arts Complex, Castlewood Canyon) with SEO, galleries and FAQ schema, verified live",
+    "Oct 30: 10 Facebook/Instagram posts published 7:25-7:41 AM MT",
+    "Oct 29: 5 posts and 10 social posts published",
     "Oct 28: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed",
-    "Oct 28: 50 new Wholesale Merchant leads imported to the CRM",
-    "Oct 27: 5 posts, 10 social posts, 50 Wholesale Merchant emails sent"
+    "Oct 28: 50 new Wholesale Merchant leads imported to the CRM"
    ],
    "pending": [
-    "Wholesale Merchant 50 leads + campaign for Oct 29 (~7:17 AM MT): no lead file or CRM campaign found as of 11 AM",
-    "All Clear 50-lead runs Oct 27-29: no record found (last lead log Oct 26)",
-    "All Clear backlinks Oct 28-29: no record found",
+    "Wholesale Merchant 50 leads + campaign Oct 29-30: no lead file found, and the CRM couldn't be checked (connector signed out)",
+    "All Clear 50-lead runs Oct 27-30: no record found (last lead log Oct 26)",
+    "All Clear backlinks Oct 28-30: no record found (last update Oct 27)",
     "5 All Clear directory listings waiting on email confirmation",
     "Explorer Map listings need adding by hand in wp-admin"
    ],
    "needs": [
+    "Reconnect the Argento CRM (Wholesale Merchant) and (WM Patrick) connectors",
     "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
     "Sign in to the All Clear Gmail so directory listings can be confirmed"
    ],
@@ -158,7 +158,7 @@
     1,
     1,
     1,
-    1,
+    0.5,
     0.5,
     0.5,
     0.5
@@ -173,7 +173,7 @@
      "value": 10
     },
     {
-     "label": "WM emails sent today",
+     "label": "WM emails found today",
      "value": 0
     },
     {
@@ -200,9 +200,9 @@
     "Oct 23: briefs now send from the Grok Bot relay address"
    ],
    "pending": [
-    "No briefings found in the trade log since Oct 25 (Oct 26-28 missing)",
+    "No briefings found in the trade log since Oct 25 (Oct 26-29 missing)",
     "Weather dashboard last rebuilt Oct 23",
-    "Oct 29 briefing not yet run (due 2:50 PM MT)"
+    "Oct 30 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -210,7 +210,7 @@
    "week": [
     1,
     1,
-    1,
+    null,
     null,
     null,
     null,
@@ -218,8 +218,8 @@
    ],
    "metrics": [
     {
-     "label": "Briefings logged (Oct 23-29)",
-     "value": 3
+     "label": "Briefings logged (Oct 24-30)",
+     "value": 2
     },
     {
      "label": "Bets placed (7 days)",
@@ -240,8 +240,9 @@
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Oct 29: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
-    "Oct 28: Fiverr checked every 2 hrs, 8 AM-8 PM MT, 0 orders",
+    "Oct 30: Fiverr checked at 10 AM MT: 0 orders, no warnings",
+    "Oct 29: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
+    "Oct 29: 5 pumpkin stencil Etsy listings prepared (titles, descriptions, matched thumbnails)",
     "Oct 25: Lemon Squeezy catalog of 12 printable products and 2 service offers prepared",
     "Oct 23: all 4 Fiverr gigs published"
    ],
@@ -270,7 +271,7 @@
     },
     {
      "label": "Gig impressions (30 days)",
-     "value": 37
+     "value": 43
     },
     {
      "label": "Fiverr orders",
@@ -294,30 +295,30 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
-    "Oct 29: Denver local-search post published on Facebook, Instagram, X, Google and LinkedIn",
-    "Oct 29: 10 LinkedIn connection requests sent",
-    "Oct 29: 10 Alignable messages drafted for approval",
-    "Oct 28: automation tip posted on 5 networks; 10 LinkedIn requests; 10 Alignable messages sent",
-    "Oct 28: backlinks run: Hotfrog, GoodFirms and Clutch listings confirmed live; 2 pitches drafted",
+    "Oct 30: before/after redesign post published on Facebook, Instagram, X, Google and LinkedIn",
+    "Oct 30: 10 LinkedIn connection requests sent",
+    "Oct 30: 10 Alignable messages drafted for approval",
+    "Oct 29: backlinks run: 1 new submission (Opendi, pending email verify), 13 sites tried, 2 pitches drafted",
+    "Oct 29: Denver local-search post on 5 networks; 10 LinkedIn requests",
     "Free Website drip (freewebsites.agency mailbox): 61 emails sent, 10 clicks, 1 bounce (last checked Oct 27)"
    ],
    "pending": [
-    "Daily 50-lead campaign Oct 27-29: no data found",
-    "Backlinks run for Oct 29 (~11 AM MT) not logged yet",
-    "Original Free Website drip still paused at 17 sent",
+    "Daily 50-lead campaign Oct 27-30: no data found",
+    "Backlinks run for Oct 30 (~11 AM MT) not logged yet",
+    "Free Websites Agency daily routines paused by Nick on Oct 29",
     "$150 Bundle day-7 and day-14 follow-ups still in draft"
    ],
    "needs": [
-    "Approve 10 Alignable message drafts for Oct 29",
-    "Approve guest-post pitches (2 more Oct 28)",
+    "Approve 10 Alignable message drafts for Oct 30",
+    "Approve guest-post pitches (2 more Oct 29)",
     "Review the Brighton chamber partner pitch draft",
     "Review RFP proposals (Moffat EDA due Nov 19)",
     "Reconnect the Argento CRM (Accelerated Websites) connector"
    ],
    "week": [
-    1,
     null,
     1,
+    0.5,
     0.5,
     0.5,
     0.5,
@@ -359,15 +360,16 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
+    "Oct 30: AI Discover feature post scheduled 9 AM on FB, IG, LinkedIn",
+    "Oct 29: YouTube video published (Keep every client account in one place)",
     "Oct 29: 50 new Reoon-safe leads added to the CRM and enrolled in the trial drip (0 skipped)",
     "Oct 29: Flat pricing post scheduled 9 AM on FB, IG, LinkedIn",
-    "Oct 28: YouTube video published (Track client projects start to finish)",
-    "Oct 28: 50 new leads added; Bring Your Own AI post scheduled",
-    "Trial drip: 150 sent so far, 0 opens/replies/bounces/unsubscribes as of 8:37 AM MT"
+    "Trial drip: 150 sent, 0 opens/replies/bounces/unsubscribes (as of Oct 29 morning)"
    ],
    "pending": [
-    "Oct 29 YouTube video: in production, due ~11:13 AM MT",
-    "Backlink work paused by Nick on Oct 25 (Oct 26-29 runs skipped)",
+    "Oct 30 Argento Daily 50 leads: no record yet as of 11 AM MT",
+    "Oct 30 YouTube video: due ~11:13 AM MT",
+    "Backlink work paused by Nick on Oct 25 (Oct 26-30 runs skipped)",
     "50/day warmup cap: Oct 29 leads start Oct 30 or Nov 2"
    ],
    "needs": [
@@ -395,7 +397,7 @@
     },
     {
      "label": "YouTube videos",
-     "value": 9
+     "value": 10
     },
     {
      "label": "Bounces",
