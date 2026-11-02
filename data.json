@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-01T11:15:00-07:00",
- "source": "Merlin daily dashboard update (Sun Nov 1, 11 AM MT): routine logs, post, social, video, Fiverr, Kalshi and backlink logs and work files on the shared computer through Nov 1 late morning; Wholesale Merchant CRM connector still signed out",
+ "updated": "2026-11-02T11:15:00-07:00",
+ "source": "Merlin daily dashboard update (Mon Nov 2, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Etsy, Kalshi and video work files on the shared computer through Nov 2 late morning",
  "weekDays": [
-  "Mon 26",
   "Tue 27",
   "Wed 28",
   "Thu 29",
   "Fri 30",
   "Sat 31",
-  "Sun 1"
+  "Sun 1",
+  "Mon 2"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,14 +24,15 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 2: Weekly Denver Top 50 (Nov 2-8) built at 9:15 AM",
+    "Nov 2: dashboard refreshed at 11 AM",
     "Nov 1: dashboard refreshed at 11 AM",
     "Oct 31: dashboard refreshed at 11 AM",
     "Oct 30: dashboard refreshed at 11 AM",
-    "Oct 29: dashboard refreshed at 11 AM",
-    "Oct 28: dashboard refreshed at 11 AM"
+    "Oct 29: dashboard refreshed at 11 AM"
    ],
    "pending": [
-    "Weekly Denver Top 50 next run Mon Nov 2, 9:15 AM MT"
+    "Weekly Denver Top 50 next run Mon Nov 9, 9:15 AM MT"
    ],
    "needs": [],
    "week": [
@@ -138,28 +139,28 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Nov 1: 5 mycolorado.lifestyle posts published (Trail Ridge Road, Winter Park Resort, Grand Lake, Leadville, Salida) with SEO, galleries and schema, all verified live",
-    "Nov 1: 10 Facebook/Instagram posts published",
-    "Nov 1: Wholesale Merchant backlinks: 13 directories tried (5 need your details, 5 skipped, 3 blocked; none live yet)",
-    "Oct 31: 5 posts and 10 social posts published",
-    "Oct 31: All Clear backlinks run: 1 new directory submission (pending email verify)",
-    "Oct 28: 5 Wholesale Merchant campaigns sent to 50 Reoon-checked leads, 0 failed"
+    "Nov 2: 5 mycolorado.lifestyle posts published (Keystone Resort, Copper Mountain Resort, Silverton, Estes Park, Durango) with SEO, galleries and schema, all verified live",
+    "Nov 2: 10 Facebook/Instagram posts published",
+    "Nov 2: Wholesale Merchant connector back: 30 new Reoon-checked leads added and 5 campaigns sent (sending in the background)",
+    "Nov 2: Wholesale Merchant and All Clear weekly website reports built",
+    "Nov 2: All Clear backlinks run: 12 directories tried, 2 submitted (1 waiting on email confirmation)",
+    "Nov 1: 5 posts and 10 social posts published"
    ],
    "pending": [
-    "Wholesale Merchant 50 leads + campaign Oct 29-Nov 1: stopped, CRM connector signed out (last completed run Oct 28; 6 checked leads waiting, about 24 more needed)",
-    "All Clear backlinks and 50-lead runs are weekday only; next run Mon Nov 2",
-    "All Clear 50-lead runs Oct 27-30: no record found",
+    "All Clear 50-lead run Nov 2: no leads recorded as of 11 AM",
+    "Wholesale Merchant directory backlinks deferred today (remaining sites all need an account password)",
+    "Wholesale Merchant weekly report email hit a mail-server connection error",
     "All Clear directory listings waiting on email confirmation",
     "5 Explorer Map listings prepared for today; not confirmed as added"
    ],
    "needs": [
-    "Reconnect the Argento CRM (Wholesale Merchant) and (WM Patrick) connectors",
     "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
     "Sign in to the All Clear Gmail so directory listings can be confirmed",
-    "Wholesale Merchant directories: 5 more need your sign-in or business details (8 total)"
+    "All Clear directories: 6 more need your sign-in, a password or business details",
+    "Wholesale Merchant directories: 5 need your sign-in or business details"
    ],
    "week": [
-    1,
+    0.5,
     0.5,
     0.5,
     0.5,
@@ -177,8 +178,8 @@
      "value": 10
     },
     {
-     "label": "WM emails sent today",
-     "value": 0
+     "label": "WM leads emailed today",
+     "value": 30
     },
     {
      "label": "WM emails sent (Oct 24-28)",
@@ -198,14 +199,14 @@
     "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
-    "Oct 31 briefing ran (A & B: SKIP; predicted high 56F)",
-    "Oct 31: weather dashboard rebuilt",
-    "Oct 31: caught up official highs for Oct 25-30",
-    "Oct 25 briefing ran (A & B: SKIP; predicted high 59F)"
+    "Nov 1 briefing ran (A & B: SKIP; predicted high 66F)",
+    "Nov 1: weather dashboard rebuilt",
+    "Oct 31 briefing ran (A & B: SKIP; official high 58F vs 56F predicted)",
+    "Oct 31: caught up official highs for Oct 25-30"
    ],
    "pending": [
-    "No briefings ran Oct 26-30 (confirmed in the Oct 31 brief)",
-    "Nov 1 briefing not yet run (due 2:50 PM MT)"
+    "Nov 2 briefing not yet run (due 2:50 PM MT)",
+    "No briefings ran Oct 26-30"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -215,14 +216,14 @@
     0,
     0,
     0,
-    0,
+    1,
     1,
     null
    ],
    "metrics": [
     {
-     "label": "Briefings logged (Oct 26-Nov 1)",
-     "value": 1
+     "label": "Briefings logged (Oct 27-Nov 2)",
+     "value": 2
     },
     {
      "label": "Bets placed (7 days)",
@@ -243,10 +244,10 @@
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Nov 1: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
-    "Oct 31: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
-    "Oct 29: 5 pumpkin stencil Etsy listings prepared",
-    "Oct 25: Lemon Squeezy catalog of 12 printable products and 2 service offers prepared",
+    "Nov 2: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
+    "Nov 2: Etsy weekly log: 110 visits, 134 listing views, 0 orders (ads paused Nov 1)",
+    "Nov 2: Etsy listing copy rewrite in progress (keyword plan for 50 listings)",
+    "Nov 1: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Oct 23: all 4 Fiverr gigs published"
    ],
    "pending": [
@@ -274,11 +275,15 @@
     },
     {
      "label": "Gig impressions (30 days)",
-     "value": 53
+     "value": 66
     },
     {
      "label": "Fiverr orders",
      "value": 0
+    },
+    {
+     "label": "Etsy visits (week)",
+     "value": 110
     }
    ],
    "year": "no data"
@@ -298,34 +303,34 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
+    "Nov 2: $150/mo storefront social post scheduled 9:15 AM on 5 profiles",
+    "Nov 2: 10 LinkedIn connection requests sent (10/50 this week)",
+    "Nov 2: 5 Alignable connection requests sent (monthly cap reset)",
+    "Nov 2: backlinks run: 3 guest-post pitches drafted (not sent)",
     "Oct 30: backlinks run: 0 new submissions, 10 sites tried, 3 pitches drafted",
-    "Oct 30: before/after redesign post published on Facebook, Instagram, X, Google and LinkedIn",
-    "Oct 30: 10 LinkedIn connection requests sent",
-    "Oct 30: 10 Alignable messages drafted for approval",
-    "Oct 29: backlinks run: 1 new submission (Opendi, pending email verify)",
     "Free Website drip (freewebsites.agency mailbox): 61 emails sent, 10 clicks, 1 bounce (last checked Oct 27)"
    ],
    "pending": [
-    "Weekend: weekday routines resume Mon Nov 2",
-    "Daily 50-lead campaign Oct 27-30: no data found",
+    "Daily 50-lead campaign: no record found for Oct 27-Nov 2",
     "Free Websites Agency daily routines paused by Nick on Oct 29",
-    "$150 Bundle day-7 and day-14 follow-ups still in draft"
+    "$150 Bundle day-7 and day-14 follow-ups still in draft",
+    "Web design job search due today around noon"
    ],
    "needs": [
-    "Approve 10 Alignable message drafts for Oct 30",
-    "Approve guest-post pitches (3 more Oct 30)",
+    "Approve 10 softer Alignable starter messages (drafted Oct 30)",
+    "Approve first LinkedIn message to a new connection",
+    "Approve guest-post pitches (3 more Nov 2)",
     "Review the Brighton chamber partner pitch draft",
-    "Review RFP proposals (Moffat EDA due Nov 19)",
-    "Reconnect the Argento CRM (Accelerated Websites) connector"
+    "Review RFP proposals (Moffat EDA due Nov 19)"
    ],
    "week": [
     0.5,
     0.5,
     0.5,
     0.5,
-    0.5,
     null,
-    null
+    null,
+    0.5
    ],
    "metrics": [
     {
@@ -338,11 +343,11 @@
     },
     {
      "label": "LinkedIn requests today",
-     "value": 0
+     "value": 10
     },
     {
-     "label": "Alignable drafts awaiting approval",
-     "value": 10
+     "label": "Alignable requests today",
+     "value": 5
     }
    ],
    "year": "no data"
@@ -352,8 +357,8 @@
    "name": "Argento",
    "role": "SaaS outreach & social",
    "img": "img/argento.jpg",
-   "status": "ok",
-   "headline": "Argento Daily is humming",
+   "status": "attention",
+   "headline": "Leads ready, sending blocked by Microsoft 365",
    "routines": [
     "Argento Daily \u2014 50 leads + campaign (weekdays)",
     "Daily social post 9 AM MT",
@@ -363,19 +368,20 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
-    "Nov 1: Website Forms & Lead Source Tracking feature post scheduled 9 AM",
-    "Oct 31: YouTube video published (Keep your whole team in sync with built-in chat)",
-    "Oct 31: Email Campaigns feature post scheduled 9 AM on FB, IG, LinkedIn",
-    "Oct 30: YouTube video published (Your team's playbook, organized and searchable)",
-    "Oct 29: 50 new Reoon-safe leads added to the CRM and enrolled in the trial drip"
+    "Nov 2: Support Tickets feature post scheduled 9 AM",
+    "Nov 2: 21 new Reoon-safe leads imported and campaign drafted (not sent)",
+    "Nov 2: reply check: 0 prospect replies, 0 unsubscribes",
+    "Nov 2: weekly report sent",
+    "Nov 1: YouTube video published (How to import contacts from a CSV and tag them)",
+    "Oct 31: YouTube video published (built-in team chat)"
    ],
    "pending": [
-    "Nov 1 YouTube video (CSV import) being built now, due ~11:13 AM MT",
-    "Oct 30 Argento Daily 50 leads: no record found",
-    "Argento Daily leads run weekdays; next run Mon Nov 2",
+    "Nov 2 campaign to 21 leads held: Microsoft 365 is bouncing mail from the Argento sending address as a restricted sender",
+    "Nov 2 YouTube video being built now, due ~11:13 AM MT",
     "Backlink work paused by Nick on Oct 25"
    ],
    "needs": [
+    "Unblock the Argento sending address in the Microsoft 365 admin restricted-entities page, then the drafted campaign can go out",
     "Finish SaaSworthy and SoftwareSuggest verification",
     "Crunchbase: link a social profile to add the company",
     "Review 6 drafted pitches"
@@ -384,9 +390,9 @@
     1,
     1,
     1,
-    1,
     0.5,
     1,
+    0.5,
     0.5
    ],
    "metrics": [
@@ -395,16 +401,16 @@
      "value": 150
     },
     {
-     "label": "Prospects in drip",
-     "value": 250
+     "label": "Leads imported today",
+     "value": 21
     },
     {
      "label": "YouTube videos",
-     "value": 12
+     "value": 13
     },
     {
-     "label": "Bounces",
-     "value": 0
+     "label": "Bounces today",
+     "value": 4
     }
    ],
    "year": "no data"
