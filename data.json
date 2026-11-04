@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-03T11:20:00-07:00",
- "source": "Merlin daily dashboard update (Tue Nov 3, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi, proposal and video work files on the shared computer through Nov 3 late morning",
+ "updated": "2026-11-04T11:20:00-07:00",
+ "source": "Merlin daily dashboard update (Wed Nov 4, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 4 late morning",
  "weekDays": [
-  "Wed 28",
   "Thu 29",
   "Fri 30",
   "Sat 31",
   "Sun 1",
   "Mon 2",
-  "Tue 3"
+  "Tue 3",
+  "Wed 4"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,12 +24,12 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 4: dashboard refreshed at 11 AM",
     "Nov 3: dashboard refreshed at 11 AM",
     "Nov 2: Weekly Denver Top 50 (Nov 2-8) built at 9:15 AM",
     "Nov 2: dashboard refreshed at 11 AM",
     "Nov 1: dashboard refreshed at 11 AM",
-    "Oct 31: dashboard refreshed at 11 AM",
-    "Oct 30: dashboard refreshed at 11 AM"
+    "Oct 31: dashboard refreshed at 11 AM"
    ],
    "pending": [
     "Weekly Denver Top 50 next run Mon Nov 9, 9:15 AM MT"
@@ -139,24 +139,25 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
+    "Nov 4: 5 mycolorado.lifestyle posts published (Georgetown, Beaver Creek Resort, Cherry Creek State Park, Clyfford Still Museum, Steamboat Lake State Park), all verified live",
+    "Nov 4: 10 Facebook/Instagram posts published",
+    "Nov 4: Wholesale Merchant: 30 new Reoon-checked leads added and 5 campaigns sent (sending in the background, 0 failed)",
+    "Nov 4: All Clear backlinks run: 1 listing waiting on email activation; others paid, dead, blocked or need a password",
     "Nov 3: 5 mycolorado.lifestyle posts published (Telluride, Ouray, Snowmass Ski Area, Cheesman Park, Chatfield State Park), all verified live",
-    "Nov 3: 10 Facebook/Instagram posts published",
-    "Nov 3: Wholesale Merchant: 30 new Reoon-checked leads added and 5 campaigns sent (sending in the background, 0 failed)",
-    "Nov 3: All Clear: 54 Reoon-safe leads found",
-    "Nov 3: All Clear backlinks run: 1 directory submitted (waiting on email confirmation), others paid, dead or need a password",
-    "Nov 2: 5 posts, 10 social posts and 30 Wholesale Merchant leads emailed"
+    "Nov 3: 10 Facebook/Instagram posts published"
    ],
    "pending": [
-    "All Clear 54 leads not imported: the All Clear CRM account is signed out",
-    "Wholesale Merchant directory backlinks deferred again (remaining sites need an account password)",
+    "All Clear 50 CRM leads: no Nov 4 run found yet (54 leads from Nov 3 still not imported; CRM account signed out)",
+    "Wholesale Merchant directory backlinks blocked: the site shows no business phone or address",
     "All Clear directory listings waiting on email confirmation",
     "5 Explorer Map listings prepared for today's places; not confirmed as added"
    ],
    "needs": [
-    "Reconnect the All Clear CRM account so today's 54 leads can be imported",
+    "Reconnect the All Clear CRM account so the waiting leads can be imported",
     "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
     "Sign in to the All Clear Gmail so directory listings can be confirmed",
-    "All Clear and Wholesale Merchant directories: several need your sign-in, a password or business details"
+    "Business phone and address for thewholesalemerchant.com directory listings",
+    "Several All Clear directories need your sign-in or a password"
    ],
    "week": [
     0.5,
@@ -198,15 +199,15 @@
     "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
+    "Nov 3 briefing ran (A & B: SKIP; predicted high 55F, no edge at market prices)",
+    "Nov 3: weather dashboard rebuilt",
     "Nov 2 briefing ran (A & B: SKIP; predicted high 52F)",
     "Nov 2: weather dashboard rebuilt",
     "Nov 1 briefing ran (A & B: SKIP; predicted high 66F)",
-    "Nov 1: weather dashboard rebuilt",
-    "Oct 31 briefing ran (A & B: SKIP; official high 58F vs 56F predicted)",
-    "Oct 31: caught up official highs for Oct 25-30"
+    "Nov 1: weather dashboard rebuilt"
    ],
    "pending": [
-    "Nov 3 briefing not yet run (due 2:50 PM MT)"
+    "Nov 4 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -214,7 +215,7 @@
    "week": [
     0,
     0,
-    0,
+    1,
     1,
     1,
     1,
@@ -222,8 +223,8 @@
    ],
    "metrics": [
     {
-     "label": "Briefings logged (Oct 28-Nov 3)",
-     "value": 3
+     "label": "Briefings logged (Oct 29-Nov 4)",
+     "value": 4
     },
     {
      "label": "Bets placed (7 days)",
@@ -244,12 +245,12 @@
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
+    "Nov 4: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
+    "Nov 3: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 3: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
     "Nov 2: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 2: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
-    "Nov 2: Etsy weekly log: 110 visits, 134 listing views, 0 orders (ads paused Nov 1)",
-    "Nov 2: Etsy listing copy rewrite in progress (keyword plan for 50 listings)",
-    "Nov 1: Fiverr checked every 2 hrs through 8 PM MT, 0 orders"
+    "Nov 2: Etsy weekly log: 110 visits, 134 listing views, 0 orders (ads paused Nov 1)"
    ],
    "pending": [
     "Fiverr profile only 35% complete",
@@ -276,7 +277,7 @@
     },
     {
      "label": "Gig impressions (30 days)",
-     "value": 76
+     "value": 86
     },
     {
      "label": "Fiverr orders",
@@ -304,15 +305,16 @@
     "Web design job search \u2014 Mondays ~noon MT"
    ],
    "done": [
+    "Nov 4: online-booking automation tip posted on 5 profiles",
+    "Nov 4: 10 LinkedIn connection requests sent (30/50 this week)",
+    "Nov 4: Alignable checked: no new replies, connection cap until ~Dec 1",
     "Nov 3: SEO tip social post published on 5 profiles",
     "Nov 3: 10 LinkedIn connection requests sent (20/50 this week)",
-    "Nov 3: 1 new Alignable connection accepted, starter message drafted",
-    "Nov 3: backlinks run: 3 guest-post pitches drafted (not sent); several directories blocked or down",
-    "Nov 2: Pueblo URA and Farm Advisors RFP proposals drafted; 4 new RFPs logged",
-    "Nov 2: 10 LinkedIn and 5 Alignable requests sent"
+    "Nov 3: 1 new Alignable connection accepted, starter message drafted"
    ],
    "pending": [
-    "Daily 50-lead campaign: no record found for Oct 28-Nov 3",
+    "Daily 50-lead campaign: no record found for Oct 28-Nov 4",
+    "Nov 4 backlinks run not logged yet (~11 AM MT)",
     "Free Websites Agency daily routines paused by Nick on Oct 29",
     "$150 Bundle day-7 and day-14 follow-ups still in draft"
    ],
@@ -326,23 +328,23 @@
    "week": [
     0.5,
     0.5,
+    null,
+    null,
     0.5,
-    null,
-    null,
     0.5,
     0.5
    ],
    "metrics": [
     {
      "label": "LinkedIn requests this week",
-     "value": 20
+     "value": 30
     },
     {
      "label": "LinkedIn requests today",
      "value": 10
     },
     {
-     "label": "Guest pitches drafted today",
+     "label": "Guest pitches drafted Nov 3",
      "value": 3
     },
     {
@@ -358,7 +360,7 @@
    "role": "SaaS outreach & social",
    "img": "img/argento.jpg",
    "status": "ok",
-   "headline": "Sending again: 51 campaign emails going out",
+   "headline": "30 more leads in, campaign 201 sending",
    "routines": [
     "Argento Daily \u2014 50 leads + campaign (weekdays)",
     "Daily social post 9 AM MT",
@@ -368,37 +370,37 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
-    "Nov 3: Microsoft 365 sending block looks lifted (test delivered, but to Junk)",
-    "Nov 3: 30 new Reoon-safe leads imported; campaigns to 51 leads (Nov 2 + Nov 3) now sending",
-    "Nov 3: Deals Pipeline feature post scheduled 9 AM",
-    "Nov 3: reply check: 0 prospect replies",
-    "Nov 2: YouTube video published (home-services leads to jobs use case)",
-    "Nov 2: Support Tickets feature post scheduled 9 AM"
+    "Nov 4: 30 new Reoon-safe leads imported; campaign to 30 now sending (throttled)",
+    "Nov 4: Tasks & Reminders feature post published",
+    "Nov 4: backlinks run: 17 directories tried, 1 submitted (pending review)",
+    "Nov 4: reply check: 0 prospect replies, 0 bounces",
+    "Nov 3: campaigns finished: 51 sent, 0 bounced, 12 opens, 9 clicks",
+    "Nov 3: YouTube video published (customer request to ticket how-to)"
    ],
    "pending": [
-    "Campaigns throttled: about 50 go today, the last one after the daily reset",
-    "Nov 3 YouTube video due ~11:13 AM MT",
-    "Backlink work paused by Nick on Oct 25"
+    "Campaign 201 sending in the background (about 1 every 2-3 min)",
+    "Nov 4 YouTube video due ~11:13 AM MT"
    ],
    "needs": [
-    "Test email landed in Junk: check SPF, DKIM and DMARC for the sending domain",
+    "Nov 3 test email landed in Junk: check SPF, DKIM and DMARC for the sending domain",
     "Finish SaaSworthy and SoftwareSuggest verification",
     "Crunchbase: link a social profile to add the company",
+    "Several directories need a sign-up or password",
     "Review 6 drafted pitches"
    ],
    "week": [
     1,
-    1,
     0.5,
     1,
     0.5,
+    1,
     1,
     1
    ],
    "metrics": [
     {
      "label": "Campaign emails queued today",
-     "value": 51
+     "value": 30
     },
     {
      "label": "Leads imported today",
@@ -406,7 +408,7 @@
     },
     {
      "label": "YouTube videos",
-     "value": 14
+     "value": 15
     },
     {
      "label": "Prospect replies",
