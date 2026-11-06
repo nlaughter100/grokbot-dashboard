@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-05T11:24:00-07:00",
- "source": "Merlin daily dashboard update (Thu Nov 5, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 5 late morning",
+ "updated": "2026-11-06T11:05:00-07:00",
+ "source": "Merlin daily dashboard update (Fri Nov 6, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 6 late morning",
  "weekDays": [
-  "Fri 30",
   "Sat 31",
   "Sun 1",
   "Mon 2",
   "Tue 3",
   "Wed 4",
-  "Thu 5"
+  "Thu 5",
+  "Fri 6"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,12 +24,12 @@
     "Daily dashboard update — 11 AM MT"
    ],
    "done": [
+    "Nov 6: dashboard refreshed at 11 AM",
     "Nov 5: dashboard refreshed at 11 AM",
     "Nov 4: dashboard refreshed at 11 AM",
     "Nov 3: dashboard refreshed at 11 AM",
     "Nov 2: Weekly Denver Top 50 (Nov 2-8) built at 9:15 AM",
-    "Nov 2: dashboard refreshed at 11 AM",
-    "Nov 1: dashboard refreshed at 11 AM"
+    "Nov 2: dashboard refreshed at 11 AM"
    ],
    "pending": [
     "Weekly Denver Top 50 next run Mon Nov 9, 9:15 AM MT"
@@ -47,7 +47,7 @@
    "metrics": [
     {
      "label": "YouTube videos",
-     "value": 3
+     "value": 15
     },
     {
      "label": "Routines moved",
@@ -139,19 +139,17 @@
     "All Clear 50 CRM leads — weekdays ~10 AM MT"
    ],
    "done": [
-    "Nov 5: 5 mycolorado.lifestyle posts published (Idaho Springs, Twin Lakes, Eleven Mile State Park, Browns Canyon National Monument, Eldora Mountain Resort), all verified live",
-    "Nov 5: 10 Facebook/Instagram posts published",
-    "Nov 5: Wholesale Merchant: 29 Reoon-safe leads imported; 5 campaigns queued (29 recipients sending in the background, 0 failed)",
-    "Nov 5: All Clear leads: 68 Reoon-checked, 23 safe ready to import (CRM still signed out — 0 imported)",
-    "Nov 5: All Clear backlinks: 0 new submissions; Restoration Directory needs a password",
-    "Nov 4: 5 mycolorado.lifestyle posts published (Georgetown, Beaver Creek Resort, Cherry Creek State Park, Clyfford Still Museum, Steamboat Lake State Park), all verified live",
-    "Nov 4: Wholesale Merchant: 30 new Reoon-checked leads added and 5 campaigns sent (0 failed)"
+    "Nov 6: 5 mycolorado.lifestyle posts published (Pagosa Springs, Buena Vista, Central City, Wolf Creek Pass, Lake City), all verified live",
+    "Nov 6: 10 Facebook/Instagram posts published; 5 Explorer Map listings created",
+    "Nov 6: Wholesale Merchant: 30 Reoon-safe leads imported; 5 campaigns queued (30 recipients sending, 0 failed at kickoff)",
+    "Nov 6: All Clear leads: 63 Reoon-checked, 31 safe ready to import (CRM still signed out — 0 imported; backlog ~108)",
+    "Nov 6: All Clear backlinks: Place123 live; SEO Listing + Water Damage Restore pending review; DashPages awaiting email confirm",
+    "Nov 5: 5 mycolorado.lifestyle posts published, 10 social posts, WM 29 leads emailed"
    ],
    "pending": [
-    "All Clear CRM leads: account signed out — 23 new safe leads today plus earlier waiting leads not imported",
+    "All Clear CRM leads: account signed out — 31 new safe leads today plus earlier waiting leads not imported",
     "Wholesale Merchant directory backlinks blocked: the site shows no business phone or address",
-    "All Clear directory listings waiting on email confirmation",
-    "5 Explorer Map listings prepared for today's places; not confirmed as added"
+    "All Clear directory listings waiting on email confirmation / passwords"
    ],
    "needs": [
     "Reconnect the All Clear CRM account so waiting leads can be imported",
@@ -180,11 +178,11 @@
     },
     {
      "label": "WM leads emailed today",
-     "value": 29
+     "value": 30
     },
     {
      "label": "All Clear safe leads waiting",
-     "value": 23
+     "value": 108
     }
    ],
    "year": "no data"
@@ -200,21 +198,21 @@
     "Kalshi briefing — 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
+    "Nov 5 briefing ran (A & B: SKIP; predicted high 58F, no edge at market prices)",
+    "Nov 5: weather dashboard rebuilt",
     "Nov 4 briefing ran (A & B: SKIP; predicted high 56F, no edge at market prices)",
     "Nov 4: weather dashboard rebuilt",
     "Nov 3 briefing ran (A & B: SKIP; predicted high 55F, no edge at market prices)",
-    "Nov 3: weather dashboard rebuilt",
-    "Nov 2 briefing ran (A & B: SKIP; predicted high 52F)",
-    "Nov 2: weather dashboard rebuilt"
+    "Nov 3: weather dashboard rebuilt"
    ],
    "pending": [
-    "Nov 5 briefing not yet run (due 2:50 PM MT)"
+    "Nov 6 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
    ],
    "week": [
-    0,
+    1,
     1,
     1,
     1,
@@ -225,7 +223,7 @@
    "metrics": [
     {
      "label": "Briefings logged (Oct 29-Nov 5)",
-     "value": 5
+     "value": 6
     },
     {
      "label": "Bets placed (7 days)",
@@ -246,9 +244,9 @@
     "Fiverr monitor — every 2 hrs, 8 AM–8 PM MT"
    ],
    "done": [
-    "Nov 5: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
+    "Nov 6: Fiverr checked at 8:45 and 10:05 AM MT: 0 orders, no warnings",
+    "Nov 5: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 4: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
-    "Nov 4: Fiverr checked at 8 and 10 AM MT: 0 orders, no warnings",
     "Nov 3: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 2: Etsy weekly log: 110 visits, 134 listing views, 0 orders (ads paused Nov 1)"
    ],
@@ -277,7 +275,7 @@
     },
     {
      "label": "Gig impressions (30 days)",
-     "value": 99
+     "value": 108
     },
     {
      "label": "Fiverr orders",
@@ -305,30 +303,29 @@
     "Web design job search — Mondays ~noon MT"
    ],
    "done": [
+    "Nov 6: site-speed tip posted on 5 profiles",
+    "Nov 6: 10 LinkedIn connection requests sent (50/50 this week; cap hit)",
+    "Nov 6: Alignable checked: connection cap until ~Dec 1; 8 new starter drafts awaiting approval (plus 6 from Nov 5)",
     "Nov 5: Denver/Colorado local tip posted on 5 profiles",
-    "Nov 5: 10 LinkedIn connection requests sent (40/50 this week)",
-    "Nov 5: Alignable checked: no new replies; connection cap until ~Dec 1; 6 new starter drafts awaiting approval",
-    "Nov 5: backlinks: 1 directory submitted (pending review); 3 guest pitches drafted",
-    "Nov 4: online-booking automation tip posted on 5 profiles",
-    "Nov 4: 10 LinkedIn connection requests sent (30/50 this week)"
+    "Nov 5: 10 LinkedIn connection requests sent (40/50 that week)"
    ],
    "pending": [
-    "Daily 50-lead campaign: no record found for Oct 28-Nov 5",
+    "Daily 50-lead campaign: no record found for Oct 28-Nov 6",
     "Free Websites Agency daily routines paused by Nick on Oct 29",
     "$150 Bundle day-7 and day-14 follow-ups still in draft"
    ],
    "needs": [
     "Farm Advisors proposal: fill placeholders and send by Nov 6, 3 PM MT",
     "Review the Pueblo URA proposal (due Nov 30)",
-    "Approve Alignable starter messages (6 new Nov 5)",
-    "Approve first LinkedIn message to a new connection",
-    "Approve guest-post pitches (3 more Nov 5)",
+    "Approve Alignable starter messages (6 from Nov 5 + 8 from Nov 6)",
+    "Approve first LinkedIn message to a new connection (out-of-market accept drafted)",
+    "Approve guest-post pitches still waiting",
     "Data Axle listing shows the wrong phone — check and correct"
    ],
    "week": [
+    null,
+    null,
     0.5,
-    null,
-    null,
     0.5,
     0.5,
     0.5,
@@ -337,15 +334,15 @@
    "metrics": [
     {
      "label": "LinkedIn requests this week",
-     "value": 40
+     "value": 50
     },
     {
      "label": "LinkedIn requests today",
      "value": 10
     },
     {
-     "label": "Guest pitches drafted Nov 5",
-     "value": 3
+     "label": "Alignable drafts awaiting",
+     "value": 14
     },
     {
      "label": "RFP proposals drafted Nov 2",
@@ -360,7 +357,7 @@
    "role": "SaaS outreach & social",
    "img": "img/argento.jpg",
    "status": "ok",
-   "headline": "30 more leads in, campaign 219 sending",
+   "headline": "30 more leads in, campaign 236 sending",
    "routines": [
     "Argento Daily — 50 leads + campaign (weekdays)",
     "Daily social post 9 AM MT",
@@ -370,17 +367,17 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
-    "Nov 5: 30 new Reoon-safe leads imported; campaign 219 to 30 now sending (throttled)",
+    "Nov 6: 30 new Reoon-safe leads imported; campaign 236 to 30 now sending (throttled)",
+    "Nov 6: Email Verification feature post published",
+    "Nov 6: reply check: 0 prospect replies, 0 bounces",
+    "Nov 5: campaign 219 finished: 30 sent, 0 bounced, 9 opens, 9 clicks",
     "Nov 5: Company Records feature post published",
-    "Nov 5: reply check: 0 prospect replies, 0 bounces",
-    "Nov 4: campaign 201 finished: 30 sent, 0 bounced, 8 opens, 8 clicks",
-    "Nov 4: YouTube video published (marketing agency client projects use case)",
-    "Nov 4: Tasks & Reminders feature post published"
+    "Nov 5: YouTube howto published (assign and track team tasks)"
    ],
    "pending": [
-    "Campaign 219 sending in the background (about 1 every 2-3 min)",
-    "Nov 5 YouTube video in progress (~11:13 AM MT)",
-    "Nov 5 backlinks: password directories blocked in automation; no new free listings confirmed"
+    "Campaign 236 sending in the background (about 1 every 2-3 min)",
+    "Nov 6 YouTube video not started yet (~11:13 AM MT)",
+    "Nov 6 backlinks: 1 directory submitted (pending review); password/captcha directories still blocked"
    ],
    "needs": [
     "Nov 3 test email landed in Junk: check SPF, DKIM and DMARC for the sending domain",
@@ -390,9 +387,9 @@
     "Review 6 drafted pitches"
    ],
    "week": [
-    0.5,
     1,
     0.5,
+    1,
     1,
     1,
     1,
