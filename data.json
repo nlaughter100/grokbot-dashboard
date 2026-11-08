@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-07T11:20:00-07:00",
- "source": "Merlin daily dashboard update (Sat Nov 7, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 7 late morning",
+ "updated": "2026-11-08T11:15:00-07:00",
+ "source": "Merlin daily dashboard update (Sun Nov 8, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 8 late morning",
  "weekDays": [
-  "Sun 1",
   "Mon 2",
   "Tue 3",
   "Wed 4",
   "Thu 5",
   "Fri 6",
-  "Sat 7"
+  "Sat 7",
+  "Sun 8"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,11 +24,11 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 8: dashboard refreshed at 11 AM",
     "Nov 7: dashboard refreshed at 11 AM",
     "Nov 6: dashboard refreshed at 11 AM",
     "Nov 5: dashboard refreshed at 11 AM",
     "Nov 4: dashboard refreshed at 11 AM",
-    "Nov 3: dashboard refreshed at 11 AM",
     "Nov 2: Weekly Denver Top 50 (Nov 2-8) built at 9:15 AM"
    ],
    "pending": [
@@ -137,25 +137,26 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
-    "Nov 7: 5 mycolorado.lifestyle posts published (Palisade, Marble, Redstone, Monarch Mountain, Purgatory Resort), all verified live",
-    "Nov 7: 10 Facebook/Instagram posts published; 5 Explorer Map listings prepared (manual add still needed)",
-    "Nov 7: Wholesale Merchant: 30 Reoon-safe leads imported; 5 campaigns sent (30 recipients, 0 failed)",
-    "Nov 7: Wholesale Merchant backlinks: 9 free online listings created/submitted (CurlShip + PromoteIndex live; WorthToTry awaits email confirm)",
-    "Nov 7: All Clear backlinks: Find-Us-Here live; Loveland Biz, Fort Collins Biz, Ezilon Local pending review; 4 accounts await email confirm",
-    "Nov 6: 5 mycolorado.lifestyle posts, 10 social posts, WM 30 leads emailed; All Clear 31 safe leads ready but not imported"
+    "Nov 8: 5 mycolorado.lifestyle posts published (Manitou Springs, Steamboat Springs, Breckenridge, Guanella Pass, Fairplay), all verified live",
+    "Nov 8: 10 Facebook/Instagram posts published; 5 Explorer Map listings saved and verified (store IDs 212-216)",
+    "Nov 8: Wholesale Merchant: 30 Reoon-safe leads imported; 5 campaigns sent (30 recipients, 0 failed)",
+    "Nov 8: Wholesale Merchant backlinks: 7 free listings (TechTools.cz, DevElif and Jayde created; Active Search Results, Tiny Startups, FinWalletHub and Builders in Fintech submitted); toolgrep rejected",
+    "Nov 8: All Clear backlinks: The Fort List, Pages24 and EZlocal live; Contractor Plug pending in directory; several other listings submitted for review; older verification emails clicked",
+    "Nov 7: 5 mycolorado.lifestyle posts, 10 social posts, WM 30 leads emailed; All Clear Find-Us-Here live"
    ],
    "pending": [
-    "All Clear CRM leads: account signed out \u2014 ~54 safe leads waiting; no Saturday leads run (weekday routine)",
-    "All Clear directory listings waiting on email confirmation in allclearrestore mailbox",
-    "Wholesale Merchant: WorthToTry confirm link in wholesalemerchant mailbox; password-gated directories still blocked",
-    "Explorer Map: 5 Nov 7 listings still need manual add in wp-admin"
+    "All Clear CRM leads: account signed out \u2014 ~54 safe leads waiting as of last check; no Sunday leads run (weekday routine)",
+    "All Clear: Locanto needs phone verification; Hubbiz confirm still blocked; several directories still behind captcha",
+    "Wholesale Merchant: WorthToTry and other directory confirm links still need mailbox clicks; password-gated directories still blocked",
+    "Explorer Map: 5 Nov 7 listings were prepared for manual add (not confirmed added)"
    ],
    "needs": [
     "Reconnect the All Clear CRM account so waiting leads can be imported",
     "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
-    "Mailbox access for allclearrestore@ so directory confirm links can be clicked",
+    "Open the Hubbiz confirmation in the allclearrestore mailbox in a regular browser",
     "Shared Wholesale Merchant directory password (and chat fill approval) for password-gated listings",
-    "Password for The Restoration Directory (and other All Clear directories that need a sign-in)"
+    "Locanto listing needs a phone verification, or it can be dropped",
+    "Wholesale Merchant listings waiting on a browser check, an account password, founder details, or approval to send a directory email"
    ],
    "week": [
     0.5,
@@ -191,20 +192,20 @@
    "name": "Breezy",
    "role": "Kalshi Denver briefings",
    "img": "img/weather.jpg",
-   "status": "attention",
+   "status": "ok",
    "headline": "Daily Denver high-temp briefing",
    "routines": [
     "Kalshi briefing \u2014 2:50 PM MT daily (emails via grokbot@ relay)"
    ],
    "done": [
-    "Nov 6 briefing ran (A & B: SKIP; predicted high 60F, no edge at market prices)",
-    "Nov 6: weather dashboard rebuilt (live page last-modified Fri evening)",
+    "Nov 7 briefing ran (A & B: SKIP; predicted high 65F, no edge at market prices)",
+    "Nov 7: weather dashboard rebuilt",
+    "Nov 6 briefing ran (A & B: SKIP; predicted high 60F, exact hit on official high)",
     "Nov 5 briefing ran (A & B: SKIP; predicted high 58F, exact hit on official high)",
-    "Nov 4 briefing ran (A & B: SKIP; predicted high 56F, no edge at market prices)",
-    "Nov 3 briefing ran (A & B: SKIP; predicted high 55F, no edge at market prices)"
+    "Nov 4 briefing ran (A & B: SKIP; predicted high 56F, no edge at market prices)"
    ],
    "pending": [
-    "Nov 7 briefing not yet run (due 2:50 PM MT)"
+    "Nov 8 briefing not yet run (due 2:50 PM MT)"
    ],
    "needs": [
     "Open offer: backtest a looser Strategy A"
@@ -220,8 +221,8 @@
    ],
    "metrics": [
     {
-     "label": "Briefings logged (Oct 23-Nov 6)",
-     "value": 10
+     "label": "Briefings logged (Oct 23-Nov 7)",
+     "value": 11
     },
     {
      "label": "Bets placed (7 days)",
@@ -242,10 +243,10 @@
     "Fiverr monitor \u2014 every 2 hrs, 8 AM\u20138 PM MT"
    ],
    "done": [
-    "Nov 7: Fiverr checked at 8:10 and 10:05 AM MT: 0 orders, no warnings",
+    "Nov 8: Fiverr checked at 8:04 and 10:05 AM MT: 0 orders, no warnings",
+    "Nov 7: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 6: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 5: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
-    "Nov 4: Fiverr checked every 2 hrs through 8 PM MT, 0 orders",
     "Nov 2: Etsy weekly log: 110 visits, 134 listing views, 0 orders (ads paused Nov 1)"
    ],
    "pending": [
@@ -273,7 +274,7 @@
     },
     {
      "label": "Gig impressions (30 days)",
-     "value": 111
+     "value": 112
     },
     {
      "label": "Fiverr orders",
@@ -302,14 +303,14 @@
    ],
    "done": [
     "Nov 6: site-speed tip posted on 5 profiles",
-    "Nov 6: 10 LinkedIn connection requests sent (50/50 this week; cap hit)",
+    "Nov 6: 10 LinkedIn connection requests sent (50/50 last weekday stretch; cap hit)",
     "Nov 6: Alignable checked: connection cap until ~Dec 1; 8 new starter drafts awaiting approval (plus 6 from Nov 5)",
     "Nov 5: Denver/Colorado local tip posted on 5 profiles",
     "Nov 5: 10 LinkedIn connection requests sent"
    ],
    "pending": [
-    "Nov 7 Saturday: weekday routines skipped (expected)",
-    "Daily 50-lead campaign: no record found for Oct 28-Nov 7",
+    "Nov 8 Sunday: weekday routines skipped (expected)",
+    "Daily 50-lead campaign: no record found for Oct 28-Nov 8",
     "Free Websites Agency daily routines paused by Nick on Oct 29",
     "$150 Bundle day-7 and day-14 follow-ups still in draft"
    ],
@@ -322,12 +323,12 @@
     "Data Axle listing shows the wrong phone \u2014 check and correct"
    ],
    "week": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
     null,
-    0.5,
-    0.5,
-    0.5,
-    0.5,
-    0.5,
     null
    ],
    "metrics": [
@@ -356,7 +357,7 @@
    "role": "SaaS outreach & social",
    "img": "img/argento.jpg",
    "status": "ok",
-   "headline": "Team Chat social live; weekend leads off",
+   "headline": "Live Dashboard post published; weekend leads off",
    "routines": [
     "Argento Daily \u2014 50 leads + campaign (weekdays)",
     "Daily social post 9 AM MT",
@@ -366,17 +367,17 @@
     "LinkedIn outreach (paused)"
    ],
    "done": [
+    "Nov 8: Live Dashboard feature post published on Facebook, Instagram and LinkedIn",
+    "Nov 7: How-to YouTube published (add a company and link its contacts)",
     "Nov 7: Team Chat feature post published (\"Ditch the group text.\")",
     "Nov 6: campaign 236 finished: 30 sent, 0 bounced, 5 unique opens, 5 unique clicks, 1 unsub",
     "Nov 6: Email Verification feature post published",
-    "Nov 6: YouTube usecase published (sales team closing deals in the pipeline)",
-    "Nov 5: campaign 219 finished: 30 sent, 0 bounced, 9 opens, 9 clicks",
-    "Nov 5: Company Records feature post published"
+    "Nov 6: YouTube usecase published (sales team closing deals in the pipeline)"
    ],
    "pending": [
-    "Nov 7 YouTube video in progress at 11 AM (capture/explore started; not published yet)",
-    "Nov 7 daily 50-lead campaign skipped (Saturday; weekday-only)",
-    "Nov 7 backlinks: no Argento Solutions directory run found this morning"
+    "Nov 8 YouTube video in progress at 11 AM (documents feature capture/explore started; not published yet)",
+    "Nov 8 daily 50-lead campaign skipped (Sunday; weekday-only)",
+    "Nov 8 backlinks: no Argento Solutions directory run found this morning"
    ],
    "needs": [
     "Nov 3 test email landed in Junk: check SPF, DKIM and DMARC for the sending domain",
@@ -386,7 +387,7 @@
     "Review 6 drafted pitches"
    ],
    "week": [
-    0.5,
+    1,
     1,
     1,
     1,
@@ -405,7 +406,7 @@
     },
     {
      "label": "YouTube videos",
-     "value": 16
+     "value": 17
     },
     {
      "label": "Prospect replies",
