@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>JARVIS Command Center</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="command">
+<a class="skip" href="#command">Skip to command surface</a>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand-wrap">
+      <div class="brand">
+        <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+          <polygon points="24,2 44,13 44,35 24,46 4,35 4,13" fill="none" stroke="currentColor" stroke-width="1.2"/>
+          <polygon points="24,10 36,17 36,31 24,38 12,31 12,17" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="24" y="28" text-anchor="middle" font-size="11" fill="currentColor" font-family="Rajdhani, sans-serif">J</text>
+        </svg>
+        <div class="brand-text">
+          <strong>JARVIS</strong>
+          <span>COMMAND<br>CENTER</span>
+        </div>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Command views">
+      <button type="button" data-nav="command" aria-current="page">
+        <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z" stroke-width="1.3"/></svg>
+        COMMAND
+      </button>
+      <button type="button" data-nav="agents">
+        <svg viewBox="0 0 24 24"><circle cx="6" cy="8" r="2" stroke-width="1.3"/><circle cx="16" cy="7" r="2" stroke-width="1.3"/><circle cx="12" cy="16" r="2" stroke-width="1.3"/><path d="M8 9.2 10.4 14.2M14.2 8.6 13.2 14" stroke-width="1.3"/></svg>
+        AGENTS
+      </button>
+      <button type="button" data-nav="daily">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" stroke-width="1.3"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" stroke-width="1.3"/></svg>
+        DAILY
+      </button>
+      <button type="button" data-nav="weekly">
+        <svg viewBox="0 0 24 24"><path d="M5 19V10M10 19V5M15 19v-7M20 19V8" stroke-width="1.3"/></svg>
+        WEEK
+      </button>
+      <button type="button" data-nav="yearly">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke-width="1.3"/><path d="M12 8v4l3 2" stroke-width="1.3"/></svg>
+        YEAR
+      </button>
+      <button type="button" data-nav="feed">
+        <svg viewBox="0 0 24 24"><path d="M5 7h14M5 12h14M5 17h10" stroke-width="1.3"/></svg>
+        FEED
+      </button>
+      <button type="button" data-nav="needs">
+        <svg viewBox="0 0 24 24"><path d="M12 3 21 12 12 21 3 12Z" stroke-width="1.3"/></svg>
+        NEEDS <span class="pip" id="needs-pip" hidden>0</span>
+      </button>
+    </nav>
+    <div class="wave-block">
+      <div class="wave-label"><span>ON-TRACK RATIO</span><b id="wave-stat">—</b></div>
+      <canvas id="wave" width="320" height="84" aria-hidden="true"></canvas>
+      <p class="wave-note">Display of snapshot status counts. Not a sensor.</p>
+    </div>
+    <button type="button" class="focus-btn" data-cmd="focus" data-label="FOCUS MODE" data-on="EXIT FOCUS" aria-pressed="false">FOCUS MODE</button>
+  </aside>
+
+  <main class="main" id="main">
+    <header class="mast">
+      <div class="topbar">
+      <div class="pill" id="status-pill" role="status" aria-live="polite">
+        <span class="k">SYSTEM STATUS</span>
+        <span id="status-dot" class="dot loading"></span>
+        <span id="status-label">READING SOURCE</span>
+      </div>
+      <div class="clockblock">
+        <div id="clock">--:--:--</div>
+        <div id="date">DENVER</div>
+      </div>
+      <div class="tools">
+        <form id="searchform" role="search">
+          <input id="q" type="search" name="q" placeholder="SEARCH SNAPSHOT" aria-label="Search snapshot" autocomplete="off" spellcheck="false">
+        </form>
+        <button type="button" class="ib" id="refresh-btn" data-cmd="refresh" aria-label="Refresh snapshot" title="Refresh snapshot (R)">
+          <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.2-5.5" stroke-width="1.4"/><path d="M20 4v5h-5" stroke-width="1.4"/></svg>
+        </button>
+        <button type="button" class="ib" data-cmd="help" aria-label="Help and keyboard shortcuts" title="Help">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke-width="1.3"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.2 2.4c-.7.3-1.2.8-1.2 1.6V14" stroke-width="1.3"/><path d="M12 17h.01" stroke-width="1.8"/></svg>
+        </button>
+      </div>
+      </div>
+      <div id="filterbar" hidden></div>
+    </header>
+
+    <div id="command">
+      <div class="upper">
+        <div class="shell" id="core-shell">
+          <section class="panel" aria-labelledby="core-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">01</span><h2 id="core-title">AI CORE OVERVIEW</h2></header>
+            <p class="psub">COUNTS FROM THE FILE</p>
+            <div class="body" id="tiles"></div>
+          </section>
+        </div>
+        <div class="shell hero" id="hero-shell">
+          <section class="panel" aria-labelledby="hero-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">02</span><h2 id="hero-title">CORE GEOMETRY</h2></header>
+            <div class="body">
+              <canvas id="globe" aria-hidden="true"></canvas>
+              <div class="scan" aria-hidden="true"></div>
+              <div class="hero-copy">
+                <div class="stack">
+                  <p class="kicker">SNAPSHOT CORE</p>
+                  <div class="jarvis" aria-label="JARVIS"><span>J</span><span>A</span><span>R</span><span>V</span><span>I</span><span>S</span></div>
+                  <p class="hero-sub">AI CORE</p>
+                  <p class="fine">DAILY FILE · NOT LIVE TELEMETRY</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="shell" id="feed-shell">
+          <section class="panel" aria-labelledby="feed-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">03</span><h2 id="feed-title">INTELLIGENCE FEED</h2><button type="button" class="mini" data-nav="feed">FULL</button></header>
+            <p class="psub">SNAPSHOT ACTIVITY · NOT LIVE TELEMETRY <span id="feed-meta"></span></p>
+            <div class="body" id="feed"></div>
+          </section>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="shell">
+          <section class="panel" aria-labelledby="agents-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">04</span><h2 id="agents-title">ACTIVE AGENTS</h2><button type="button" class="mini" data-nav="agents">FULL</button></header>
+            <p class="psub">ROSTER IN THE SNAPSHOT · NOT A PROCESS COUNT</p>
+            <div class="body" id="agent-grid"></div>
+          </section>
+        </div>
+        <div class="shell">
+          <section class="panel" aria-labelledby="mission-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">05</span><h2 id="mission-title">MISSION TIMELINE</h2></header>
+            <p class="psub">ROUTINES AS WRITTEN IN THE FILE</p>
+            <div class="body" id="timeline"></div>
+          </section>
+        </div>
+        <div class="shell">
+          <section class="panel" aria-labelledby="cmd-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">06</span><h2 id="cmd-title">QUICK COMMANDS</h2></header>
+            <p class="psub">EACH ONE CHANGES THIS BOARD</p>
+            <div class="body">
+              <div class="cmds">
+                <button type="button" data-cmd="refresh">REFRESH</button>
+                <button type="button" data-cmd="daily">DAILY</button>
+                <button type="button" data-cmd="weekly">WEEKLY</button>
+                <button type="button" data-cmd="yearly">YEARLY</button>
+                <button type="button" data-cmd="attention" aria-pressed="false">ATTENTION</button>
+                <button type="button" data-cmd="needs">NEEDS</button>
+                <button type="button" data-cmd="focus" data-label="FOCUS" data-on="EXIT" aria-pressed="false">FOCUS</button>
+                <button type="button" data-cmd="clear">CLEAR</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="shell">
+          <section class="panel" aria-labelledby="ring-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">07</span><h2 id="ring-title">ROUTINE OVERVIEW</h2></header>
+            <p class="psub">RINGS USE FILE COUNTS ONLY</p>
+            <div class="body" id="rings"></div>
+          </section>
+        </div>
+        <div class="shell">
+          <section class="panel" aria-labelledby="week-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">08</span><h2 id="week-title">WEEKLY HISTORY</h2><button type="button" class="mini" data-nav="weekly">FULL</button></header>
+            <p class="psub">1 DONE · 0.5 PARTIAL · 0 MISSED · DASH NO DATA</p>
+            <div class="body" id="heatmap"></div>
+          </section>
+        </div>
+        <div class="shell">
+          <section class="panel" aria-labelledby="status-title">
+            <i class="brk tl"></i><i class="brk tr"></i><i class="brk bl"></i><i class="brk br"></i>
+            <header class="ph"><span class="idx">09</span><h2 id="status-title">STATUS DETAIL</h2></header>
+            <p class="psub">SOURCE TIME AND LAST FETCH</p>
+            <div class="body" id="side-status"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div id="stage"></div>
+    <footer class="footer" id="footer"></footer>
+  </main>
+</div>
+
+<dialog id="detail" aria-labelledby="detail-title"></dialog>
+<dialog id="help" aria-labelledby="help-title">
+  <div class="sheet">
+    <button type="button" class="close" data-cmd="close-help">CLOSE</button>
+    <h2 id="help-title" class="ph" style="padding-left:0">HOW THIS BOARD READS</h2>
+    <p>This command center displays the public daily snapshot from the original Grok Bots dashboard. It polls that file. It does not watch live processes.</p>
+    <ul class="help-list">
+      <li><b>SNAPSHOT CURRENT</b> means the file timestamp is under 40 hours old.</li>
+      <li><b>STALE SNAPSHOT</b> means that timestamp is older than 40 hours. The rows still show the last file.</li>
+      <li><b>LINK OFFLINE</b> means the latest fetch failed. If a previous file loaded, it stays on screen.</li>
+      <li><b>NO SNAPSHOT</b> means nothing has loaded. Counts stay blank rather than turning into zeros.</li>
+      <li><b>SOURCE UNKNOWN</b> means the file arrived without a usable timestamp or a recognizable shape.</li>
+      <li>Week cells: filled teal = done (1), split amber = partial (0.5), crossed rose = missed (0), dashed = no data. Unrecognized numbers stay unlabeled.</li>
+      <li>Done, pending, and needs are lists in the file. A line in the done list is logged work, not a live success signal.</li>
+      <li>Year stays “no data” until the file itself carries a yearly note. This board does not invent an annual total.</li>
+      <li>The source has no machine-load fields, so there are no hardware gauges.</li>
+      <li>Search checks names, roles, routines, and list lines. Emails or secret-shaped values in a future file are redacted on screen.</li>
+    </ul>
+    <h3>KEYBOARD</h3>
+    <ul class="help-list">
+      <li><kbd>/</kbd> search</li>
+      <li><kbd>1</kbd> command <kbd>2</kbd> agents <kbd>3</kbd> daily <kbd>4</kbd> week <kbd>5</kbd> year <kbd>6</kbd> feed <kbd>7</kbd> needs</li>
+      <li><kbd>F</kbd> focus mode <kbd>R</kbd> refresh <kbd>Esc</kbd> clear filters, or close a panel</li>
+      <li>Left and right arrows move between agent records while a record is open.</li>
+    </ul>
+    <p>Motion follows the operating system reduced-motion setting. The globe holds a still frame when that setting is on.</p>
+  </div>
+</dialog>
+<div id="live" class="skip" aria-live="polite"></div>
+<noscript><p style="padding:16px">This command center needs JavaScript to read the public snapshot.</p></noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>
