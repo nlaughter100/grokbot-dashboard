@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-08T21:02:42-07:00",
- "source": "Merlin mid-evening data refresh (Sun Nov 8): All Clear CRM reconnect verified via nick connector; dashboard reconnect needs item cleared. Other status still from 11 AM daily check.",
+ "updated": "2026-11-09T11:10:00-07:00",
+ "source": "Merlin 11 AM daily check (Mon Nov 9): new week started; Merlin status confirmed from routine runs. Other bots not re-checked today, so their week cells show no data and their last notes carry over from Nov 8.",
  "weekDays": [
-  "Mon 2",
-  "Tue 3",
-  "Wed 4",
-  "Thu 5",
-  "Fri 6",
-  "Sat 7",
-  "Sun 8"
+  "Mon 9",
+  "Tue 10",
+  "Wed 11",
+  "Thu 12",
+  "Fri 13",
+  "Sat 14",
+  "Sun 15"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,6 +24,8 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 9: Weekly Denver Top 50 (Nov 9-15) built at 9:15 AM",
+    "Nov 9: dashboard refreshed at 11 AM",
     "Nov 8: dashboard refreshed at 11 AM",
     "Nov 7: dashboard refreshed at 11 AM",
     "Nov 6: dashboard refreshed at 11 AM",
@@ -32,17 +34,17 @@
     "Nov 2: Weekly Denver Top 50 (Nov 2-8) built at 9:15 AM"
    ],
    "pending": [
-    "Weekly Denver Top 50 next run Mon Nov 9, 9:15 AM MT"
+    "Weekly Denver Top 50 next run Mon Nov 16, 9:15 AM MT"
    ],
    "needs": [],
    "week": [
     1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
    ],
    "metrics": [
     {
@@ -159,13 +161,13 @@
     "Wholesale Merchant listings waiting on a browser check, an account password, founder details, or approval to send a directory email"
    ],
    "week": [
-    0.5,
-    0.5,
-    0.5,
-    0.5,
-    0.5,
-    0.5,
-    0.5
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
    ],
    "metrics": [
     {
@@ -211,12 +213,12 @@
     "Open offer: backtest a looser Strategy A"
    ],
    "week": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
    ],
    "metrics": [
@@ -259,13 +261,13 @@
     "Approve meeting-notes and Sheets package prices"
    ],
    "week": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
    ],
    "metrics": [
     {
@@ -323,11 +325,11 @@
     "Data Axle listing shows the wrong phone \u2014 check and correct"
    ],
    "week": [
-    0.5,
-    0.5,
-    0.5,
-    0.5,
-    0.5,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null
    ],
@@ -387,13 +389,13 @@
     "Review 6 drafted pitches"
    ],
    "week": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0.5
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
    ],
    "metrics": [
     {
