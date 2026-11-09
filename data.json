@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T11:15:00-07:00",
- "source": "Merlin daily dashboard update (Sun Nov 8, 11 AM MT): routine logs, post, social, lead, campaign, backlink, Fiverr, Kalshi and video work files on the shared computer through Nov 8 late morning",
+ "updated": "2026-11-08T21:02:42-07:00",
+ "source": "Merlin mid-evening data refresh (Sun Nov 8): All Clear CRM reconnect verified via nick connector; dashboard reconnect needs item cleared. Other status still from 11 AM daily check.",
  "weekDays": [
   "Mon 2",
   "Tue 3",
@@ -137,6 +137,7 @@
     "All Clear 50 CRM leads \u2014 weekdays ~10 AM MT"
    ],
    "done": [
+    "Nov 8 evening: All Clear CRM reconnect verified (nick connector \u2192 workspace ws_1792383609753; contacts readable)",
     "Nov 8: 5 mycolorado.lifestyle posts published (Manitou Springs, Steamboat Springs, Breckenridge, Guanella Pass, Fairplay), all verified live",
     "Nov 8: 10 Facebook/Instagram posts published; 5 Explorer Map listings saved and verified (store IDs 212-216)",
     "Nov 8: Wholesale Merchant: 30 Reoon-safe leads imported; 5 campaigns sent (30 recipients, 0 failed)",
@@ -145,13 +146,12 @@
     "Nov 7: 5 mycolorado.lifestyle posts, 10 social posts, WM 30 leads emailed; All Clear Find-Us-Here live"
    ],
    "pending": [
-    "All Clear CRM leads: account signed out \u2014 ~54 safe leads waiting as of last check; no Sunday leads run (weekday routine)",
+    "All Clear CRM reconnected \u2014 ~54 Reoon-safe leads ready to import (no Sunday leads run; weekday routine)",
     "All Clear: Locanto needs phone verification; Hubbiz confirm still blocked; several directories still behind captcha",
     "Wholesale Merchant: WorthToTry and other directory confirm links still need mailbox clicks; password-gated directories still blocked",
     "Explorer Map: 5 Nov 7 listings were prepared for manual add (not confirmed added)"
    ],
    "needs": [
-    "Reconnect the All Clear CRM account so waiting leads can be imported",
     "Review the All Clear pitch drafts (Oct 26 and Oct 27) before anything goes out",
     "Open the Hubbiz confirmation in the allclearrestore mailbox in a regular browser",
     "Shared Wholesale Merchant directory password (and chat fill approval) for password-gated listings",
