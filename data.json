@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-09T11:10:00-07:00",
- "source": "Merlin 11 AM daily check (Mon Nov 9): new week started; Merlin status confirmed from routine runs. Other bots not re-checked today, so their week cells show no data and their last notes carry over from Nov 8.",
+ "updated": "2026-11-10T11:05:00-07:00",
+ "source": "Merlin 11 AM daily check (Tue Nov 10): Merlin status confirmed from routine runs. Other bots not re-checked today, so their Tue cell shows no data and last notes carry over.",
  "weekDays": [
   "Mon 9",
   "Tue 10",
@@ -24,6 +24,7 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 10: dashboard refreshed at 11 AM",
     "Nov 9: Weekly Denver Top 50 (Nov 9-15) built at 9:15 AM",
     "Nov 9: dashboard refreshed at 11 AM",
     "Nov 8: dashboard refreshed at 11 AM",
@@ -39,7 +40,7 @@
    "needs": [],
    "week": [
     1,
-    null,
+    1,
     null,
     null,
     null,
