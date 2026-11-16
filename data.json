@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-15T11:23:00-07:00",
- "source": "Merlin 11 AM daily check (Sun Nov 15): Merlin status confirmed from routine runs. Other bots not re-checked today, so their Sun cell shows no data and last notes carry over.",
+ "updated": "2026-11-16T11:25:00-07:00",
+ "source": "Merlin 11 AM daily check (Mon Nov 16): Merlin status confirmed from routine runs. Other bots not re-checked today, so their cells show no data and last notes carry over.",
  "weekDays": [
-  "Mon 9",
-  "Tue 10",
-  "Wed 11",
-  "Thu 12",
-  "Fri 13",
-  "Sat 14",
-  "Sun 15"
+  "Mon 16",
+  "Tue 17",
+  "Wed 18",
+  "Thu 19",
+  "Fri 20",
+  "Sat 21",
+  "Sun 22"
  ],
  "legend": "week values: 1 = done, 0.5 = partial, 0 = failed/missed, null = no data",
  "bots": [
@@ -24,6 +24,8 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 16: Weekly Denver Top 50 (Nov 16-22) built at 9:15 AM",
+    "Nov 16: dashboard refreshed at 11 AM",
     "Nov 15: dashboard refreshed at 11 AM",
     "Nov 14: dashboard refreshed at 11 AM",
     "Nov 13: dashboard refreshed at 11 AM",
@@ -31,22 +33,20 @@
     "Nov 11: dashboard refreshed at 11 AM",
     "Nov 10: dashboard refreshed at 11 AM",
     "Nov 9: Weekly Denver Top 50 (Nov 9-15) built at 9:15 AM",
-    "Nov 9: dashboard refreshed at 11 AM",
-    "Nov 8: dashboard refreshed at 11 AM",
-    "Nov 7: dashboard refreshed at 11 AM"
+    "Nov 9: dashboard refreshed at 11 AM"
    ],
    "pending": [
-    "Weekly Denver Top 50 next run Mon Nov 16, 9:15 AM MT"
+    "Weekly Denver Top 50 next run Mon Nov 23, 9:15 AM MT"
    ],
    "needs": [],
    "week": [
     1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
    ],
    "metrics": [
     {
