@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T11:20:00-07:00",
- "source": "Merlin 11 AM daily check (Thu Nov 19): Merlin status confirmed from routine runs. Other bots not re-checked today, so last notes carry over.",
+ "updated": "2026-11-20T11:25:00-07:00",
+ "source": "Merlin 11 AM daily check (Fri Nov 20): Merlin status confirmed from routine runs. Other bots not re-checked today, so last notes carry over.",
  "weekDays": [
   "Mon 16",
   "Tue 17",
@@ -24,6 +24,7 @@
     "Daily dashboard update \u2014 11 AM MT"
    ],
    "done": [
+    "Nov 20: dashboard refreshed at 11 AM",
     "Nov 19: dashboard refreshed at 11 AM",
     "Nov 18: dashboard refreshed at 11 AM",
     "Nov 17: dashboard refreshed at 11 AM",
@@ -32,8 +33,7 @@
     "Nov 15: dashboard refreshed at 11 AM",
     "Nov 14: dashboard refreshed at 11 AM",
     "Nov 13: dashboard refreshed at 11 AM",
-    "Nov 12: dashboard refreshed at 11 AM",
-    "Nov 11: dashboard refreshed at 11 AM"
+    "Nov 12: dashboard refreshed at 11 AM"
    ],
    "pending": [
     "Weekly Denver Top 50 next run Mon Nov 23, 9:15 AM MT"
@@ -44,7 +44,7 @@
     1,
     1,
     1,
-    null,
+    1,
     null,
     null
    ],
